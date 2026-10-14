@@ -12,14 +12,16 @@ The snapshot also includes the later backend health response update and its test
   and `Backend/app.py`.
 - **Run the Python service or tests:** follow the commands below. No game artwork
   or embedding model is needed for these steps.
-- **Run the complete Unity game:** first restore the external artwork and other
-  omitted assets described in `Docs/THIRD_PARTY_NOTICES.md` and
-  `Docs/OMITTED_ASSETS.csv`. The archive retains the project scripts, scenes,
-  prefabs and configuration. It is a source submission, not a standalone game
-  build. Without those dependencies, visual assets and some references will be
-  missing.
-- **Inspect the results:** open
-  `Backend/reports/model_comparison_v1/model_comparison.md`.
+- **Understand the Unity game limitation:** this repository alone cannot run the
+  complete game. It includes scripts, scenes, prefabs and settings, but omits
+  external artwork and other assets. To try the full game locally, first restore
+  the matching files described in `Docs/THIRD_PARTY_NOTICES.md` and
+  `Docs/OMITTED_ASSETS.csv` from sources you are permitted to use. A fresh Unity
+  build from this stripped repository has not been verified.
+- **Inspect the saved results:** open
+  `Backend/reports/model_comparison_v1/model_comparison.md`. Run
+  `python3 Tools/reproduce_saved_comparison.py` to check calculations from the
+  saved scores. This does not generate new model responses or embeddings.
 
 ## Contents
 
