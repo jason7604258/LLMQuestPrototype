@@ -12,12 +12,12 @@ The snapshot also includes the later backend health response update and its test
   and `Backend/app.py`.
 - **Run the Python service or tests:** follow the commands below. No game artwork
   or embedding model is needed for these steps.
-- **Understand the Unity game limitation:** this repository alone cannot run the
-  complete game. It includes scripts, scenes, prefabs and settings, but omits
-  external artwork and other assets. To try the full game locally, first restore
-  the matching files described in `Docs/THIRD_PARTY_NOTICES.md` and
-  `Docs/OMITTED_ASSETS.csv` from sources you are permitted to use. A fresh Unity
-  build from this stripped repository has not been verified.
+- **Understand the Unity game limitation:** this is a source archive, not a
+  playable game. A fresh clone cannot run the complete game because external
+  artwork and other assets are omitted. Some artwork cannot be redistributed as
+  raw assets under the recorded terms; other artwork has unresolved provenance.
+  See `Docs/THIRD_PARTY_NOTICES.md` and `Docs/OMITTED_ASSETS.csv`. The original
+  local development project is separate from this GitHub copy.
 - **Inspect the saved results:** open
   `Backend/reports/model_comparison_v1/model_comparison.md`. Run
   `python3 Tools/reproduce_saved_comparison.py` to check calculations from the
@@ -95,30 +95,27 @@ New runtime records go to `Backend/logs/narrative_runs.jsonl`. This file is
 separate from the four saved study logs. `NARRATIVE_LOG_ENABLED=0` disables new
 logging; `NARRATIVE_LOG_PATH` selects another file.
 
-## Open the Unity project after restoring assets
+## Unity project status
 
-A fresh clone of this repository cannot play the complete game as-is. The
-following steps are for someone who already has lawful access to the matching
-omitted assets and wants to try restoring a local working copy. A fresh Unity
-build from this stripped repository has not been verified, even after asset
-restoration. The original development project was not changed by this export.
+This GitHub repository does not include a playable build, and its stripped Unity
+project cannot run the complete game as downloaded. The missing assets are not
+supplied here. A clean-clone build has not been validated. The original local
+development project, which retains its assets, was not changed by this export.
+The restoration notes in `Docs/THIRD_PARTY_NOTICES.md` are for people who
+already have appropriate access to matching files; they are not a way to obtain
+the omitted assets from this repository.
 
-1. Restore the omitted dependencies following `Docs/THIRD_PARTY_NOTICES.md` and
-   `Docs/OMITTED_ASSETS.csv`. Preserve the original paths and `.meta` files so
-   Unity can resolve object references.
-2. Use Unity Hub to open this project folder with **Unity 6000.5.0f1**, the version
-   in `ProjectSettings/ProjectVersion.txt`. Unity restores package dependencies
-   from `Packages/manifest.json` and `Packages/packages-lock.json`.
-3. Open `Assets/Scenes/Arena.unity`. The saved configuration includes the shared
-   player and quest systems. Input handling is set to **Both**. Movement,
-   combat and several panels use `ProjectSettings/InputManager.asset`; shop
-   interaction uses `Assets/InputSystem_Actions.inputactions`.
-4. Start the Python service, then enter Play mode. The automatic quest loop
-   requests a narrative, checks it and activates a predefined scenario. A Forest
-   objective can appear while the player is still in Arena; its targets are
-   prepared on arrival in Forest.
-5. Follow the displayed destination and objective. Matching gameplay events
-   advance progress. Completion saves the story summary for the next request.
+For reference, the original project uses **Unity 6000.5.0f1**, as recorded in
+`ProjectSettings/ProjectVersion.txt`, and its main scene is
+`Assets/Scenes/Arena.unity`. The saved configuration includes the shared player
+and quest systems. Input handling is set to **Both**. Movement, combat and
+several panels use `ProjectSettings/InputManager.asset`; shop interaction uses
+`Assets/InputSystem_Actions.inputactions`. With the original dependencies and
+Python service available, the automatic quest loop requests a narrative, checks
+it and activates a predefined scenario. A Forest objective can appear while the
+player is still in Arena; its targets are prepared on arrival in Forest. Matching
+gameplay events advance progress, and completion saves the story summary for the
+next request.
 
 | Control | Action |
 | --- | --- |
