@@ -7426,8 +7426,8 @@
     },
     {
       "path": "Docs/THIRD_PARTY_NOTICES.md",
-      "bytes": 9460,
-      "sha256": "9be2d276b29794222e5317b6f6b4d655a41170565389b5374b9114c721236982"
+      "bytes": 12218,
+      "sha256": "73e18a0a0f88d95d0c7929967445144648ce14d3feda3ec41d43c981770f06ef"
     },
     {
       "path": "Docs/ThirdPartyLicenses/Anton OFL.txt",
@@ -7468,6 +7468,11 @@
       "path": "Docs/ThirdPartyLicenses/Unity-uGUI-LICENSE.md",
       "bytes": 457,
       "sha256": "a8e0cae87b2edb8c205ae6c308f20b89a09f32d62bd4a3ff0343bb4724a4201e"
+    },
+    {
+      "path": "Docs/ThirdPartyLicenses/Unity-Universal-2D-LICENSE.md",
+      "bytes": 458,
+      "sha256": "20f2df7baf45778f3c44b1e394da7da0faa1a0445f8fea2c9f94ffda57f35a27"
     },
     {
       "path": "Docs/mermaid-diagram-en.svg",

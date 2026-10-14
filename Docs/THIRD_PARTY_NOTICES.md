@@ -2,6 +2,16 @@
 
 Prepared for the code archive on 18 September 2026. This archive preserves the project source and configuration. It does not grant rights to external software or artwork. The original development project has not been changed by this packaging step.
 
+## Development provenance
+
+The project owner reports that the implementation and game configuration were
+developed primarily with assistance from Codex, and that the animations were
+made using assets purchased during development. This account was recorded on
+14 October 2026. The artwork, Unity templates and other third-party materials
+retain their own copyright and licence terms; the development account does not
+establish a licence version or redistribution permission for every external
+asset. The known sources and omitted files are described below.
+
 ## Archive contents and omissions
 
 `OMITTED_ASSETS.csv` lists 314 omitted content files (32,567,110 bytes): 159 artwork files and 155 TextMesh Pro dependency files. Each row gives the original project-relative path, SHA-256 hash, byte size, Unity GUID, paired metadata path and hash, and restoration guidance. The CSV contains identifiers and hashes, not the omitted file contents. All 314 paired `.meta` files are retained to preserve import settings and references.
@@ -13,8 +23,40 @@ The following project material remains in the archive: the game scripts, scenes,
 | Artwork under `Assets/RPG`, `Assets/Sprites` and `Assets/UI` | 159 PNG, PSD and Aseprite files omitted; import metadata and the surrounding game configuration retained | The dissertation credits Tiny Swords by Pixel Frog. The folder also includes an icon collection whose author has not been established. The retained records do not prove the source and licence version of every individual image. |
 | TextMesh Pro resources and examples | 155 files omitted, including fonts, generated font atlases, imported examples and shaders | External Unity/TextMesh Pro resources. Compared with the installed Unity resource packages before omission. Project-specific or changed materials and `TMP Settings.asset` were retained. |
 | Existing font notices | Seven notice files retained in their original paths and copied to `Docs/ThirdPartyLicenses` | Liberation Sans, Anton, Bangers, Oswald, Roboto and Unity notices; the two Roboto notice files describe Apache License 2.0. |
+| Unity Universal 2D project template | 19 template-derived files and metadata retained, including the Lit 2D scene template and its embedded preview | Unity Technologies; compared with the installed Universal 2D template version 6.1.4. Its original copyright and licence notice is retained in `Docs/ThirdPartyLicenses/Unity-Universal-2D-LICENSE.md`. |
 | Unity packages | Dependency declarations retained in `Packages`; package cache and editor installation are external dependencies | Unity Technologies and the relevant package authors. |
 | Python packages and sentence encoder | Dependency declarations and recorded analysis information retained; installed environments and model weights are external dependencies | OpenAI Python SDK, Pydantic, Sentence Transformers and the packages named by the project's dependency files. The encoder is `sentence-transformers/all-mpnet-base-v2`. |
+
+## Unity Universal 2D project template
+
+The repository retains files from Unity's `com.unity.template.universal-2d`
+version 6.1.4, distributed with Unity 6000.5.0f1 in
+`com.unity.template.2d-cross-platform-2d-6.1.4.tgz`. The original package identifies
+copyright © 2021 Unity Technologies and the Unity Companion License for
+Unity-dependent projects. Its original notice is retained in
+[`ThirdPartyLicenses/Unity-Universal-2D-LICENSE.md`](ThirdPartyLicenses/Unity-Universal-2D-LICENSE.md);
+see the [Unity Companion License](https://unity.com/legal/licenses/unity-companion-license)
+for its conditions. These files are not claimed as wholly original project code.
+
+The template-derived content includes `Assets/DefaultVolumeProfile.asset`,
+`Assets/InputSystem_Actions.inputactions`, `Assets/Settings/Renderer2D.asset`,
+`Assets/Settings/UniversalRP.asset`,
+`Assets/UniversalRenderPipelineGlobalSettings.asset`,
+`Assets/Settings/Lit2DSceneTemplate.scenetemplate`,
+`Assets/Settings/Scenes/URP2DSceneTemplate.unity`,
+`Assets/Scenes/SampleScene.unity`, their paired `.meta` files, and the
+`Assets/Scenes.meta`, `Assets/Settings.meta`, and `Assets/Settings/Scenes.meta`
+folder metadata. The input-actions, UniversalRP, and global pipeline settings
+files differ from their template counterparts; the other 16 listed files and
+metadata match the installed template byte for byte as checked on 14 October
+2026.
+
+`Lit2DSceneTemplate.scenetemplate` contains Unity's built-in preview thumbnail for
+the Lit 2D (URP) new-scene template. It is retained official template content;
+the artwork-omission records do not imply that every retained asset is entirely
+free of image data. The entire scene-template file, including that thumbnail,
+matches the installed official template. Its SHA-256 is
+`ca928761bf976c878d54df524a3742c5f1bca53a013b4061abd2c752c8a212aa`.
 
 ## Tiny Swords and other artwork
 
