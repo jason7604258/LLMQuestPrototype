@@ -1,0 +1,4 @@
+Verification date: 2026-09-10
+Command: OPENAI_API_KEY='' Backend/.venv/bin/python -m unittest discover -s Backend -p 'test_*.py'
+Result: Ran 74 tests in 1.129s; OK.
+The first sandboxed attempt could not bind the test localhost port. The successful rerun permitted temporary local loopback HTTP. Provider calls were mocked and no paid narrative generation was performed.

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4e9c1b82d44e1488edc27696ac1142, type: 3}
+  m_Name: SlayCavebornBear
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioDefinition
+  scenarioId: slay_caveborn_bear_01
+  scenarioType: 0
+  targetId: enemy_caveborn_bear
+  targetPrefab: {fileID: 5032102101392555364, guid: cce282028ded14517abb7033e9f05d90, type: 3}
+  targetSceneName: Forest
+  requiredAmount: 1
+  experienceReward: 18
+  goldReward: 12
+  targetVisualDescription: A broad brown cave bear with heavy claws and a hunched,
+    scarred body.
+  targetAbilityDescription: It pursues slowly and delivers a powerful close-range
+    claw attack. It cannot fly and has no ranged attack.
+  mapDescription: A ruined forest settlement crossed by an old road, with a black
+    castle to the north and a dark cave among the western rocks.

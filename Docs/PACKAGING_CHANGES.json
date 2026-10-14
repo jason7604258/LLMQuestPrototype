@@ -1,0 +1,107 @@
+{
+  "created": "2026-09-18",
+  "purpose": "document location-only changes in the submitted copies; original working-project files are unchanged",
+  "pathConventions": {
+    "<PROJECT_ROOT>": "the extracted LLMQuestPrototype directory",
+    "<MODEL_CACHE>": "the Hugging Face hub cache used for the recorded analysis"
+  },
+  "historicalHashPolicy": "historical hashes refer to the pre-packaging files; the entries below connect them to the path-redacted archive copies",
+  "files": [
+    {
+      "path": "Backend/reports/demo_2026-08-20_take01/experiment_summary.md",
+      "originalSha256": "73212d588c37f1696705d0932d44986aa3cdf5dc2f9b55bdda9cf2099dee7b8a",
+      "packagedSha256": "bd048b873ab400c2955429073424cbc269fb1f439c4b39079cb90b948b6080e2",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/model_comparison.md",
+      "originalSha256": "a79601010ff74498fdcb8dcd5c61b07249ef17926e530f84b65cb54d97a79f00",
+      "packagedSha256": "55433eb9767b6c0305618c76b0d57a7c834623b787432208932b7d1e5dc06a2a",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/analysis_manifest.json",
+      "originalSha256": "c8d0fa093b549a3e71ef64f3502046fa2c18fbed7e64ecf62ca7058222098662",
+      "packagedSha256": "6737f4a149c36e9c38c3619cbfaa580e214e134e9b330f2a9093990e1bb9776e",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/comparison_metadata.json",
+      "originalSha256": "33beb47efe7bad1f33ad0828e76586ffad9044dcc2a9f88420343c2d9ab5169d",
+      "packagedSha256": "ec535518d3f4d5efd92d1b29c6d2c5642259dd7ece51999457ff0183669a18dc",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/terra/lexical/lexical_analysis_summary.md",
+      "originalSha256": "d569f2f54d20df50779a4a709e56a3962e8c2ffe77ca35891e371ef3c7090087",
+      "packagedSha256": "65b2f6a551702cb7f611b7ac615750dc3e375b3be65eecbfaa7ec88cee45262b",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/terra/lexical/analysis_metadata.json",
+      "originalSha256": "aa4819a8994bb36584332edbe56d689961127b39b5791d8075a465e86434665a",
+      "packagedSha256": "fe2d0a23d795a39695891186ef4359c1bf0757fb0da6fb2e96de43ad602c066f",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/terra/semantic/analysis_metadata.json",
+      "originalSha256": "122041b9b4af2bd6e9b60f803abff1194180f15569b8aaddac72e85740b6721c",
+      "packagedSha256": "dbe142777ba9f963c933732ceb79f3c67f729b05c21401351ffe689a981fef9f",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/luna/lexical/lexical_analysis_summary.md",
+      "originalSha256": "b4456d6bd33350cffd1594dbc87dccec29720aaca8af2b48c272be099539de63",
+      "packagedSha256": "d154ca49fcf09fc45e1a5af75e24f56834246ac14d97a3bf58703ccf1202775f",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/luna/lexical/analysis_metadata.json",
+      "originalSha256": "cdd7002a9bc87c6759928c8eb8a37b26c801fb1cd5a17d2b4b9aaee27b3fcb9c",
+      "packagedSha256": "32131d52c91e30dc516aba4caa9fcb178c6940b31117756e61f080b73d88ffaf",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/luna/semantic/analysis_metadata.json",
+      "originalSha256": "ef75790ceb72684a452089eef0f66e28aa0175058c95e095cee7d85a6b416168",
+      "packagedSha256": "eef8c5dc752c69def1568534b6e7a8ec6107325a4205510153e6d52c6c2bc73f",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/astra/lexical/lexical_analysis_summary.md",
+      "originalSha256": "2dc6ca771a5b8aeeb5f8387f9aad812158453397eda7c1582cb68dfd3af40e76",
+      "packagedSha256": "6e804c18ce2bea40c22a864a975145187cc77d8ca592cd3f6ab13f2bfe5a5c89",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/astra/lexical/analysis_metadata.json",
+      "originalSha256": "6576e991c5cbd44828f799e597e3f8aea507ae9ba8563251cd3a02a96c5b54f8",
+      "packagedSha256": "e0b05f191fc3f5cdbecbe799ef2029627ac439b707ff591d8893016409417184",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/model_comparison_v1/astra/semantic/analysis_metadata.json",
+      "originalSha256": "7768b4f82036d793f8d8464bff4dca5c3d2ac2578c8a44ab20aeddede754a4d8",
+      "packagedSha256": "4d2e27b9d0f3b37d063aa83f55183da67d513452956f79df8adc493a60db31e4",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/semantic_frozen72_v1/analysis_metadata.json",
+      "originalSha256": "5877e807abfd8fc6714339c7c66720c2ab5e0d8552169eb6d79094dc4e34329e",
+      "packagedSha256": "7b8f61fb63e1ef3cd85a9816f5d7d722af53f870bd892f63568d85f538fa4fe6",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/lexical_frozen72_v3/lexical_analysis_summary.md",
+      "originalSha256": "aa397c89fe0b35a75f9f028bddd11b9a09b1ba33a43890d2e6eb4f542e6d93e5",
+      "packagedSha256": "57631f058789d5b873149e9a7a02e52ad29fb23b51b85c72964d2f041f1f8f36",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    },
+    {
+      "path": "Backend/reports/lexical_frozen72_v3/analysis_metadata.json",
+      "originalSha256": "8d235f8d3736b0819898aa26f321b321b95a5f1f18ebd5047a2ccc7a7e5ad770",
+      "packagedSha256": "721d4fc185c114b663fc9c25ff43acd76e4029c3316ff2ea1e6868d5ce223b27",
+      "reason": "replaced local account paths with location placeholders; recorded values and historical checksums are unchanged"
+    }
+  ]
+}

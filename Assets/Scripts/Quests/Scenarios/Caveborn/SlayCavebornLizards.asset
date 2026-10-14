@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4e9c1b82d44e1488edc27696ac1142, type: 3}
+  m_Name: SlayCavebornLizards
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioDefinition
+  scenarioId: slay_caveborn_lizard_01
+  scenarioType: 0
+  targetId: enemy_caveborn_lizard
+  targetPrefab: {fileID: 1874352355970091121, guid: ab4f442d86d9d426c82781458804723e, type: 3}
+  targetSceneName: Forest
+  requiredAmount: 2
+  experienceReward: 14
+  goldReward: 10
+  targetVisualDescription: A tall green cave lizard with a bright yellow crest and
+    a fan-like neck membrane.
+  targetAbilityDescription: It runs quickly and attacks at close range by spreading
+    its neck membrane. It has no ranged attack or magic.
+  mapDescription: A ruined forest settlement crossed by an old road, with a black
+    castle to the north and a dark cave among the western rocks.

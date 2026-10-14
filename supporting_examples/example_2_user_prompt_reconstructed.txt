@@ -1,0 +1,14 @@
+Write one narrative wrapper for this immutable scenario data:
+<scenario_data>
+{
+  "scenarioId": "kill_torch_01",
+  "scenarioType": "KillEnemies",
+  "targetId": "enemy_torch",
+  "requiredAmount": 5,
+  "targetVisualDescription": "A humanoid warrior carrying a burning torch.",
+  "targetAbilityDescription": "It chases the player and attacks at close range. It cannot fly, has no ranged attack, and does not use ice magic.",
+  "mapDescription": "An abandoned outdoor arena surrounded by mountains.",
+  "previousStorySummary": "In an abandoned mountain arena, a lone Torch Warden maintained an ancient watch. The warden was defeated, leaving the open ruins to wind and returning growth.",
+  "tone": "Accessible open-air adventure fantasy with a hopeful sense of exploration. Show nature reclaiming ancient ruins, quiet mystery, and gentle melancholy. Use concise, clear language and vivid natural imagery. Keep danger adventurous rather than grim or tragic. Avoid archaic wording, dense lore, and modern slang. Do not reference or imitate names, characters, or lore from existing game franchises. Never invent facts or mechanics beyond the supplied scenario data. Vary imagery and display names across consecutive scenarios."
+}
+</scenario_data>

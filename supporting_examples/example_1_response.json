@@ -1,0 +1,9 @@
+{
+  "title": "The Warden’s Last Watch",
+  "introduction": "Beyond the mountain paths, an old arena lies open to wind and wild growth. At its center, a solitary guardian keeps a torch burning against the quiet.",
+  "objectiveText": "Defeat 1 Torch Warden.",
+  "targetDisplayNameSingular": "Torch Warden",
+  "targetDisplayNamePlural": "Torch Wardens",
+  "completionText": "The torchlight fades, and the abandoned arena is left to the mountains, the wind, and the returning green.",
+  "storySummary": "In an abandoned mountain arena, a lone Torch Warden maintained an ancient watch. The warden was defeated, leaving the open ruins to wind and returning growth."
+}

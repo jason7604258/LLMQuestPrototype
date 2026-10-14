@@ -1,0 +1,7 @@
+semanticMetricVersion,aggregation,comparisonScope,field,lexicalMetric,lexicalMetricRole,comparisons,spearmanRho,pearsonR,pValueReported
+semantic-field-v1-mpnet-cosine,overall_pair_weighted,within_scenario,introduction,tokenLcsF1,primary_ordered_lexical_overlap,288,0.441742,0.461463,False
+semantic-field-v1-mpnet-cosine,overall_pair_weighted,within_scenario,introduction,word3gramJaccard,strict_phrase_overlap,288,0.390744,0.385991,False
+semantic-field-v1-mpnet-cosine,overall_pair_weighted,within_scenario,introduction,word1gramJaccard,descriptive_vocabulary_overlap,288,0.508251,0.519592,False
+semantic-field-v1-mpnet-cosine,overall_pair_weighted,within_scenario,completionText,tokenLcsF1,primary_ordered_lexical_overlap,288,0.67479,0.648347,False
+semantic-field-v1-mpnet-cosine,overall_pair_weighted,within_scenario,completionText,word3gramJaccard,strict_phrase_overlap,288,0.654486,0.546732,False
+semantic-field-v1-mpnet-cosine,overall_pair_weighted,within_scenario,completionText,word1gramJaccard,descriptive_vocabulary_overlap,288,0.729941,0.681357,False

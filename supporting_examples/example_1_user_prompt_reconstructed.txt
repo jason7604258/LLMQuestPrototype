@@ -1,0 +1,14 @@
+Write one narrative wrapper for this immutable scenario data:
+<scenario_data>
+{
+  "scenarioId": "slay_torch_boss_01",
+  "scenarioType": "SlayBoss",
+  "targetId": "boss_torch_warden",
+  "requiredAmount": 1,
+  "targetVisualDescription": "A larger humanoid warrior carrying a burning torch and wearing heavy arena armour.",
+  "targetAbilityDescription": "It has increased health, chases the player, and attacks at close range for two damage. It cannot fly and has no ranged attack.",
+  "mapDescription": "An abandoned outdoor arena surrounded by mountains, guarded by a lone torch warden.",
+  "previousStorySummary": "",
+  "tone": "Accessible open-air adventure fantasy with a hopeful sense of exploration. Show nature reclaiming ancient ruins, quiet mystery, and gentle melancholy. Use concise, clear language and vivid natural imagery. Keep danger adventurous rather than grim or tragic. Avoid archaic wording, dense lore, and modern slang. Do not reference or imitate names, characters, or lore from existing game franchises. Never invent facts or mechanics beyond the supplied scenario data. Vary imagery and display names across consecutive scenarios."
+}
+</scenario_data>

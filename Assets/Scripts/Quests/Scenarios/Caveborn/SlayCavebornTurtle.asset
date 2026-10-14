@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4e9c1b82d44e1488edc27696ac1142, type: 3}
+  m_Name: SlayCavebornTurtle
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioDefinition
+  scenarioId: slay_caveborn_turtle_01
+  scenarioType: 0
+  targetId: enemy_caveborn_turtle
+  targetPrefab: {fileID: 1428956352556497583, guid: 306d97b3faaea43fdbe135c94607fc82, type: 3}
+  targetSceneName: Forest
+  requiredAmount: 1
+  experienceReward: 20
+  goldReward: 14
+  targetVisualDescription: A large green cave turtle carrying a weathered, spiral-marked
+    stone shell.
+  targetAbilityDescription: It moves slowly, withstands more damage, and bites at
+    close range. Its guard animation is cosmetic and it has no ranged attack.
+  mapDescription: A ruined forest settlement crossed by an old road, with a black
+    castle to the north and a dark cave among the western rocks.

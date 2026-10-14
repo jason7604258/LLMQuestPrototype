@@ -1,0 +1,5376 @@
+{
+  "version": "gameplay-four-model-v1",
+  "cohorts": [
+    {
+      "label": "Sol",
+      "requestedModel": "gpt-5.6-sol",
+      "sourcePath": "<PROJECT_ROOT>/Backend/logs/demo_narrative_runs_2026-08-20_take01.jsonl",
+      "sourcePrefixLines": 206,
+      "sourcePrefixSha256": "e24f11761aa490997e4ef9d39a41ffc9da1888940510748237be369329e734ad",
+      "excludedPrefixLines": [],
+      "exclusionReason": null,
+      "afterPrefixPolicy": "Exclude every subsequent record; retain unchanged in source log",
+      "sourceFullSha256AtPreparation": "1cc0e81e3aee9cdc339e335e75ab4d02a9ff7d08aab015a5574a961b5b540ce1",
+      "sourcePhysicalLinesAtPreparation": 211,
+      "sourceGenerationCountsByOriginAtPreparation": {
+        "openai": 74
+      },
+      "excludedRecordsAtPreparation": [
+        {
+          "sourceLine": 207,
+          "requestId": "f9d68c38f6d541759ffba80e65821de7",
+          "recordType": "generation",
+          "eventType": null,
+          "reason": "after fixed cohort boundary"
+        },
+        {
+          "sourceLine": 208,
+          "requestId": "f9d68c38f6d541759ffba80e65821de7",
+          "recordType": "gameplay_event",
+          "eventType": "scenario_started",
+          "reason": "after fixed cohort boundary"
+        },
+        {
+          "sourceLine": 209,
+          "requestId": "f9d68c38f6d541759ffba80e65821de7",
+          "recordType": "gameplay_event",
+          "eventType": "scenario_completed",
+          "reason": "after fixed cohort boundary"
+        },
+        {
+          "sourceLine": 210,
+          "requestId": "25d7f30e5ade430f9e62c82fff7a5229",
+          "recordType": "generation",
+          "eventType": null,
+          "reason": "after fixed cohort boundary"
+        },
+        {
+          "sourceLine": 211,
+          "requestId": "25d7f30e5ade430f9e62c82fff7a5229",
+          "recordType": "gameplay_event",
+          "eventType": "scenario_started",
+          "reason": "after fixed cohort boundary"
+        }
+      ],
+      "inputPath": "<PROJECT_ROOT>/Backend/logs/demo_narrative_runs_2026-08-20_take01.jsonl",
+      "inputLines": 206,
+      "inputSha256": "e24f11761aa490997e4ef9d39a41ffc9da1888940510748237be369329e734ad",
+      "generationRecords": 72,
+      "scenarioGenerationCounts": {
+        "collect_mushroom_01": 8,
+        "kill_torch_01": 9,
+        "slay_caveborn_bear_01": 10,
+        "slay_caveborn_lizard_01": 10,
+        "slay_caveborn_snake_01": 10,
+        "slay_caveborn_spider_01": 7,
+        "slay_caveborn_turtle_01": 11,
+        "slay_torch_boss_01": 7
+      },
+      "withinScenarioPairs": 296,
+      "completedEvents": 62,
+      "continuityVerification": "not required: original frozen cohort has incomplete completion-event coverage",
+      "sourceLineMapping": [
+        {
+          "inputLine": 1,
+          "sourceLine": 1,
+          "requestId": "162f91eb445e484abb96e6335ab3ef86",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 2,
+          "sourceLine": 2,
+          "requestId": "162f91eb445e484abb96e6335ab3ef86",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 3,
+          "sourceLine": 3,
+          "requestId": "162f91eb445e484abb96e6335ab3ef86",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 4,
+          "sourceLine": 4,
+          "requestId": "29001dee60644bdbab9ebf03e14e2bb5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 5,
+          "sourceLine": 5,
+          "requestId": "29001dee60644bdbab9ebf03e14e2bb5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 6,
+          "sourceLine": 6,
+          "requestId": "29001dee60644bdbab9ebf03e14e2bb5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 7,
+          "sourceLine": 7,
+          "requestId": "53004f972f954c68a8e084b8b5b6f334",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 8,
+          "sourceLine": 8,
+          "requestId": "53004f972f954c68a8e084b8b5b6f334",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 9,
+          "sourceLine": 9,
+          "requestId": "53004f972f954c68a8e084b8b5b6f334",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 10,
+          "sourceLine": 10,
+          "requestId": "1ff7bb96e8684e85ab248cdab0727bec",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 11,
+          "sourceLine": 11,
+          "requestId": "1ff7bb96e8684e85ab248cdab0727bec",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 12,
+          "sourceLine": 12,
+          "requestId": "1ff7bb96e8684e85ab248cdab0727bec",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 13,
+          "sourceLine": 13,
+          "requestId": "461350b1fa704438a9aea53488901831",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 14,
+          "sourceLine": 14,
+          "requestId": "461350b1fa704438a9aea53488901831",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 15,
+          "sourceLine": 15,
+          "requestId": "461350b1fa704438a9aea53488901831",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 16,
+          "sourceLine": 16,
+          "requestId": "aa66f3792e3a4a27b0219a0fc1e244d1",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 17,
+          "sourceLine": 17,
+          "requestId": "aa66f3792e3a4a27b0219a0fc1e244d1",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 18,
+          "sourceLine": 18,
+          "requestId": "aa66f3792e3a4a27b0219a0fc1e244d1",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 19,
+          "sourceLine": 19,
+          "requestId": "26862674b41943c9af6eb3f92faa21d3",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 20,
+          "sourceLine": 20,
+          "requestId": "26862674b41943c9af6eb3f92faa21d3",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 21,
+          "sourceLine": 21,
+          "requestId": "26862674b41943c9af6eb3f92faa21d3",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 22,
+          "sourceLine": 22,
+          "requestId": "7eafe283e3f94a5ab8fd027c5ae8cccb",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 23,
+          "sourceLine": 23,
+          "requestId": "7eafe283e3f94a5ab8fd027c5ae8cccb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 24,
+          "sourceLine": 24,
+          "requestId": "7eafe283e3f94a5ab8fd027c5ae8cccb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 25,
+          "sourceLine": 25,
+          "requestId": "27b3177e5e2249eaa9e0f86396935ebb",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 26,
+          "sourceLine": 26,
+          "requestId": "27b3177e5e2249eaa9e0f86396935ebb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 27,
+          "sourceLine": 27,
+          "requestId": "27b3177e5e2249eaa9e0f86396935ebb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 28,
+          "sourceLine": 28,
+          "requestId": "b4f0e4c6a8ef40d38e32ed1f2d8ce472",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 29,
+          "sourceLine": 29,
+          "requestId": "b4f0e4c6a8ef40d38e32ed1f2d8ce472",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 30,
+          "sourceLine": 30,
+          "requestId": "b4f0e4c6a8ef40d38e32ed1f2d8ce472",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 31,
+          "sourceLine": 31,
+          "requestId": "c1fa090c646d441295961c69ad3fa2de",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 32,
+          "sourceLine": 32,
+          "requestId": "c1fa090c646d441295961c69ad3fa2de",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 33,
+          "sourceLine": 33,
+          "requestId": "c1fa090c646d441295961c69ad3fa2de",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 34,
+          "sourceLine": 34,
+          "requestId": "726d411d1fe74c569d0047afbbf0e7ea",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 35,
+          "sourceLine": 35,
+          "requestId": "726d411d1fe74c569d0047afbbf0e7ea",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 36,
+          "sourceLine": 36,
+          "requestId": "726d411d1fe74c569d0047afbbf0e7ea",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 37,
+          "sourceLine": 37,
+          "requestId": "d84458be95224fcda2a6c32ab2697695",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 38,
+          "sourceLine": 38,
+          "requestId": "d84458be95224fcda2a6c32ab2697695",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 39,
+          "sourceLine": 39,
+          "requestId": "d84458be95224fcda2a6c32ab2697695",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 40,
+          "sourceLine": 40,
+          "requestId": "2645ecf9589a4a9e8e706767e276a76f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 41,
+          "sourceLine": 41,
+          "requestId": "2645ecf9589a4a9e8e706767e276a76f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 42,
+          "sourceLine": 42,
+          "requestId": "2645ecf9589a4a9e8e706767e276a76f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 43,
+          "sourceLine": 43,
+          "requestId": "3f26cb4a292f42849568abf2ac676f67",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 44,
+          "sourceLine": 44,
+          "requestId": "3f26cb4a292f42849568abf2ac676f67",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 45,
+          "sourceLine": 45,
+          "requestId": "3f26cb4a292f42849568abf2ac676f67",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 46,
+          "sourceLine": 46,
+          "requestId": "39d6a848b4b64697a5abb4928193eee3",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 47,
+          "sourceLine": 47,
+          "requestId": "39d6a848b4b64697a5abb4928193eee3",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 48,
+          "sourceLine": 48,
+          "requestId": "39d6a848b4b64697a5abb4928193eee3",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 49,
+          "sourceLine": 49,
+          "requestId": "0004c4132d9644e0bd093ba78530b577",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 50,
+          "sourceLine": 50,
+          "requestId": "0004c4132d9644e0bd093ba78530b577",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 51,
+          "sourceLine": 51,
+          "requestId": "0004c4132d9644e0bd093ba78530b577",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 52,
+          "sourceLine": 52,
+          "requestId": "511e86ba3fb247c09012fd37d7846c35",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 53,
+          "sourceLine": 53,
+          "requestId": "511e86ba3fb247c09012fd37d7846c35",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 54,
+          "sourceLine": 54,
+          "requestId": "511e86ba3fb247c09012fd37d7846c35",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 55,
+          "sourceLine": 55,
+          "requestId": "d784c582361b4e9d957ac8156cf18d68",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 56,
+          "sourceLine": 56,
+          "requestId": "d784c582361b4e9d957ac8156cf18d68",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 57,
+          "sourceLine": 57,
+          "requestId": "d784c582361b4e9d957ac8156cf18d68",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 58,
+          "sourceLine": 58,
+          "requestId": "1f53cf34c8844802bc379ed2eb31e9b9",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 59,
+          "sourceLine": 59,
+          "requestId": "1f53cf34c8844802bc379ed2eb31e9b9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 60,
+          "sourceLine": 60,
+          "requestId": "1f53cf34c8844802bc379ed2eb31e9b9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 61,
+          "sourceLine": 61,
+          "requestId": "034835e3aa0d4616af851f2766abc25f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 62,
+          "sourceLine": 62,
+          "requestId": "034835e3aa0d4616af851f2766abc25f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 63,
+          "sourceLine": 63,
+          "requestId": "034835e3aa0d4616af851f2766abc25f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 64,
+          "sourceLine": 64,
+          "requestId": "ff569c416ae04b82a9be4138ac9d3f34",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 65,
+          "sourceLine": 65,
+          "requestId": "ff569c416ae04b82a9be4138ac9d3f34",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 66,
+          "sourceLine": 66,
+          "requestId": "ff569c416ae04b82a9be4138ac9d3f34",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 67,
+          "sourceLine": 67,
+          "requestId": "f31e5490c2f64db0b92dbb5056a9ae7d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 68,
+          "sourceLine": 68,
+          "requestId": "f31e5490c2f64db0b92dbb5056a9ae7d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 69,
+          "sourceLine": 69,
+          "requestId": "f31e5490c2f64db0b92dbb5056a9ae7d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 70,
+          "sourceLine": 70,
+          "requestId": "33e8c7e90c4843f5b38d4756b70f12f6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 71,
+          "sourceLine": 71,
+          "requestId": "33e8c7e90c4843f5b38d4756b70f12f6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 72,
+          "sourceLine": 72,
+          "requestId": "33e8c7e90c4843f5b38d4756b70f12f6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 73,
+          "sourceLine": 73,
+          "requestId": "7ea3372046ac49898120e0a908683297",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 74,
+          "sourceLine": 74,
+          "requestId": "7ea3372046ac49898120e0a908683297",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 75,
+          "sourceLine": 75,
+          "requestId": "7ea3372046ac49898120e0a908683297",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 76,
+          "sourceLine": 76,
+          "requestId": "ad0c649f7bd345f1869e866c9e4e3807",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 77,
+          "sourceLine": 77,
+          "requestId": "ad0c649f7bd345f1869e866c9e4e3807",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 78,
+          "sourceLine": 78,
+          "requestId": "ad0c649f7bd345f1869e866c9e4e3807",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 79,
+          "sourceLine": 79,
+          "requestId": "cb686e46ecfe424b9ffbe0ff114fdf19",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 80,
+          "sourceLine": 80,
+          "requestId": "cb686e46ecfe424b9ffbe0ff114fdf19",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 81,
+          "sourceLine": 81,
+          "requestId": "cb686e46ecfe424b9ffbe0ff114fdf19",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 82,
+          "sourceLine": 82,
+          "requestId": "bee67bfb5eb54765be0d74e4ec9e82cf",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 83,
+          "sourceLine": 83,
+          "requestId": "bee67bfb5eb54765be0d74e4ec9e82cf",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 84,
+          "sourceLine": 84,
+          "requestId": "bee67bfb5eb54765be0d74e4ec9e82cf",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 85,
+          "sourceLine": 85,
+          "requestId": "0bde6c425bbf463e8ae26fad972c560c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 86,
+          "sourceLine": 86,
+          "requestId": "0bde6c425bbf463e8ae26fad972c560c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 87,
+          "sourceLine": 87,
+          "requestId": "0bde6c425bbf463e8ae26fad972c560c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 88,
+          "sourceLine": 88,
+          "requestId": "8990eb1c6fb84315ab2c8fcfaae8cb29",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 89,
+          "sourceLine": 89,
+          "requestId": "8990eb1c6fb84315ab2c8fcfaae8cb29",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 90,
+          "sourceLine": 90,
+          "requestId": "8990eb1c6fb84315ab2c8fcfaae8cb29",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 91,
+          "sourceLine": 91,
+          "requestId": "e236c99fd8ba4b718ad9fcf765822723",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 92,
+          "sourceLine": 92,
+          "requestId": "e236c99fd8ba4b718ad9fcf765822723",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 93,
+          "sourceLine": 93,
+          "requestId": "e236c99fd8ba4b718ad9fcf765822723",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 94,
+          "sourceLine": 94,
+          "requestId": "61e755d4af924e84b7432e100df666f8",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 95,
+          "sourceLine": 95,
+          "requestId": "61e755d4af924e84b7432e100df666f8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 96,
+          "sourceLine": 96,
+          "requestId": "61e755d4af924e84b7432e100df666f8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 97,
+          "sourceLine": 97,
+          "requestId": "f389ec3951d94467806e46bb9d5d20a4",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 98,
+          "sourceLine": 98,
+          "requestId": "f389ec3951d94467806e46bb9d5d20a4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 99,
+          "sourceLine": 99,
+          "requestId": "f389ec3951d94467806e46bb9d5d20a4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 100,
+          "sourceLine": 100,
+          "requestId": "89935b1f28ec417ca2a3580130fe929e",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 101,
+          "sourceLine": 101,
+          "requestId": "89935b1f28ec417ca2a3580130fe929e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 102,
+          "sourceLine": 102,
+          "requestId": "89935b1f28ec417ca2a3580130fe929e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 103,
+          "sourceLine": 103,
+          "requestId": "05dcc1d4b3844b4f8a4e9abbf3cf2b01",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 104,
+          "sourceLine": 104,
+          "requestId": "05dcc1d4b3844b4f8a4e9abbf3cf2b01",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 105,
+          "sourceLine": 105,
+          "requestId": "05dcc1d4b3844b4f8a4e9abbf3cf2b01",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 106,
+          "sourceLine": 106,
+          "requestId": "009997b619534fd98503ae4b2c30d221",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 107,
+          "sourceLine": 107,
+          "requestId": "009997b619534fd98503ae4b2c30d221",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 108,
+          "sourceLine": 108,
+          "requestId": "009997b619534fd98503ae4b2c30d221",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 109,
+          "sourceLine": 109,
+          "requestId": "dfb5c4340545490087a040591569a4df",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 110,
+          "sourceLine": 110,
+          "requestId": "dfb5c4340545490087a040591569a4df",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 111,
+          "sourceLine": 111,
+          "requestId": "dfb5c4340545490087a040591569a4df",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 112,
+          "sourceLine": 112,
+          "requestId": "76763d5e128540c5a68a68fce34f191b",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 113,
+          "sourceLine": 113,
+          "requestId": "76763d5e128540c5a68a68fce34f191b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 114,
+          "sourceLine": 114,
+          "requestId": "76763d5e128540c5a68a68fce34f191b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 115,
+          "sourceLine": 115,
+          "requestId": "b4c1c16b40b245ca9637d17959f2cac8",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 116,
+          "sourceLine": 116,
+          "requestId": "b4c1c16b40b245ca9637d17959f2cac8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 117,
+          "sourceLine": 117,
+          "requestId": "b4c1c16b40b245ca9637d17959f2cac8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 118,
+          "sourceLine": 118,
+          "requestId": "2ffc261061a3497a97eeea10cb68afcc",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 119,
+          "sourceLine": 119,
+          "requestId": "2ffc261061a3497a97eeea10cb68afcc",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 120,
+          "sourceLine": 120,
+          "requestId": "2ffc261061a3497a97eeea10cb68afcc",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 121,
+          "sourceLine": 121,
+          "requestId": "d332afcccffd4015986b80d98d563606",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 122,
+          "sourceLine": 122,
+          "requestId": "d332afcccffd4015986b80d98d563606",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 123,
+          "sourceLine": 123,
+          "requestId": "d332afcccffd4015986b80d98d563606",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 124,
+          "sourceLine": 124,
+          "requestId": "2618852c4f6e4203b3b8d3b27f48c36c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 125,
+          "sourceLine": 125,
+          "requestId": "2618852c4f6e4203b3b8d3b27f48c36c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 126,
+          "sourceLine": 126,
+          "requestId": "2618852c4f6e4203b3b8d3b27f48c36c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 127,
+          "sourceLine": 127,
+          "requestId": "264863e77bd0456fa6ad43418dcde30c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 128,
+          "sourceLine": 128,
+          "requestId": "264863e77bd0456fa6ad43418dcde30c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 129,
+          "sourceLine": 129,
+          "requestId": "264863e77bd0456fa6ad43418dcde30c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 130,
+          "sourceLine": 130,
+          "requestId": "82a08efbb67b49549155bdbae108302c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 131,
+          "sourceLine": 131,
+          "requestId": "82a08efbb67b49549155bdbae108302c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 132,
+          "sourceLine": 132,
+          "requestId": "82a08efbb67b49549155bdbae108302c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 133,
+          "sourceLine": 133,
+          "requestId": "3b152581d7c14032baf1164ebd5fc6fb",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 134,
+          "sourceLine": 134,
+          "requestId": "3b152581d7c14032baf1164ebd5fc6fb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 135,
+          "sourceLine": 135,
+          "requestId": "3b152581d7c14032baf1164ebd5fc6fb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 136,
+          "sourceLine": 136,
+          "requestId": "477031fdb9304e4f965335391bc21f06",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 137,
+          "sourceLine": 137,
+          "requestId": "477031fdb9304e4f965335391bc21f06",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 138,
+          "sourceLine": 138,
+          "requestId": "477031fdb9304e4f965335391bc21f06",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 139,
+          "sourceLine": 139,
+          "requestId": "b8dd3767af674a2b83f391e0141ccbfa",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 140,
+          "sourceLine": 140,
+          "requestId": "b8dd3767af674a2b83f391e0141ccbfa",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 141,
+          "sourceLine": 141,
+          "requestId": "b8dd3767af674a2b83f391e0141ccbfa",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 142,
+          "sourceLine": 142,
+          "requestId": "6db97ea99d5d42ada490241797be9d62",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 143,
+          "sourceLine": 143,
+          "requestId": "6db97ea99d5d42ada490241797be9d62",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 144,
+          "sourceLine": 144,
+          "requestId": "6db97ea99d5d42ada490241797be9d62",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 145,
+          "sourceLine": 145,
+          "requestId": "9e9c0ca21a2b4a74ae51394021ea2340",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 146,
+          "sourceLine": 146,
+          "requestId": "9e9c0ca21a2b4a74ae51394021ea2340",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 147,
+          "sourceLine": 147,
+          "requestId": "9e9c0ca21a2b4a74ae51394021ea2340",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 148,
+          "sourceLine": 148,
+          "requestId": "e82f128a419d4be3b85fe145aa5ef3d5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 149,
+          "sourceLine": 149,
+          "requestId": "e82f128a419d4be3b85fe145aa5ef3d5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 150,
+          "sourceLine": 150,
+          "requestId": "e82f128a419d4be3b85fe145aa5ef3d5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 151,
+          "sourceLine": 151,
+          "requestId": "7d091825d2a54b52aca66e0029009c47",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 152,
+          "sourceLine": 152,
+          "requestId": "7d091825d2a54b52aca66e0029009c47",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 153,
+          "sourceLine": 153,
+          "requestId": "7d091825d2a54b52aca66e0029009c47",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 154,
+          "sourceLine": 154,
+          "requestId": "71960381731d43288208d97e7891729c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 155,
+          "sourceLine": 155,
+          "requestId": "71960381731d43288208d97e7891729c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 156,
+          "sourceLine": 156,
+          "requestId": "71960381731d43288208d97e7891729c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 157,
+          "sourceLine": 157,
+          "requestId": "630250d3a38e48f581f253ea12827f20",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 158,
+          "sourceLine": 158,
+          "requestId": "630250d3a38e48f581f253ea12827f20",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 159,
+          "sourceLine": 159,
+          "requestId": "1c049fd44a7842bdb12eae0257ebf735",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 160,
+          "sourceLine": 160,
+          "requestId": "1c049fd44a7842bdb12eae0257ebf735",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 161,
+          "sourceLine": 161,
+          "requestId": "1c049fd44a7842bdb12eae0257ebf735",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 162,
+          "sourceLine": 162,
+          "requestId": "a9f59444dca34b9baac02c90a0082a08",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 163,
+          "sourceLine": 163,
+          "requestId": "a9f59444dca34b9baac02c90a0082a08",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 164,
+          "sourceLine": 164,
+          "requestId": "a9f59444dca34b9baac02c90a0082a08",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 165,
+          "sourceLine": 165,
+          "requestId": "38049414cb684cfdb76cf1ea484f7bcb",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 166,
+          "sourceLine": 166,
+          "requestId": "38049414cb684cfdb76cf1ea484f7bcb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 167,
+          "sourceLine": 167,
+          "requestId": "38049414cb684cfdb76cf1ea484f7bcb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 168,
+          "sourceLine": 168,
+          "requestId": "7836c20f09e64bb69f1b544c4b45d903",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 169,
+          "sourceLine": 169,
+          "requestId": "7836c20f09e64bb69f1b544c4b45d903",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 170,
+          "sourceLine": 170,
+          "requestId": "a9a0d6a837d74163be98509e9b168505",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 171,
+          "sourceLine": 171,
+          "requestId": "a9a0d6a837d74163be98509e9b168505",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 172,
+          "sourceLine": 172,
+          "requestId": "c3559d405854453999c14c459c7fee47",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 173,
+          "sourceLine": 173,
+          "requestId": "c3559d405854453999c14c459c7fee47",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 174,
+          "sourceLine": 174,
+          "requestId": "c3559d405854453999c14c459c7fee47",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 175,
+          "sourceLine": 175,
+          "requestId": "44fb8481dec14c42ab91f97ec505f844",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 176,
+          "sourceLine": 176,
+          "requestId": "44fb8481dec14c42ab91f97ec505f844",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 177,
+          "sourceLine": 177,
+          "requestId": "44fb8481dec14c42ab91f97ec505f844",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 178,
+          "sourceLine": 178,
+          "requestId": "cc4db7a70efe4f589947c86a56fc990f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 179,
+          "sourceLine": 179,
+          "requestId": "cc4db7a70efe4f589947c86a56fc990f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 180,
+          "sourceLine": 180,
+          "requestId": "cda61949cac4437d88ecaad238601b9d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 181,
+          "sourceLine": 181,
+          "requestId": "cda61949cac4437d88ecaad238601b9d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 182,
+          "sourceLine": 182,
+          "requestId": "cda61949cac4437d88ecaad238601b9d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 183,
+          "sourceLine": 183,
+          "requestId": "27a7f80b305c42b7a3c653fa4a3fb480",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 184,
+          "sourceLine": 184,
+          "requestId": "27a7f80b305c42b7a3c653fa4a3fb480",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 185,
+          "sourceLine": 185,
+          "requestId": "279eef9b67c1401c8fd4f256c2382db6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 186,
+          "sourceLine": 186,
+          "requestId": "279eef9b67c1401c8fd4f256c2382db6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 187,
+          "sourceLine": 187,
+          "requestId": "aece52f681504b64acc805e691118031",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 188,
+          "sourceLine": 188,
+          "requestId": "aece52f681504b64acc805e691118031",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 189,
+          "sourceLine": 189,
+          "requestId": "aece52f681504b64acc805e691118031",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 190,
+          "sourceLine": 190,
+          "requestId": "7ba621d201ea4b54a05ae67e622bb2c6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 191,
+          "sourceLine": 191,
+          "requestId": "7ba621d201ea4b54a05ae67e622bb2c6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 192,
+          "sourceLine": 192,
+          "requestId": "8bce7ca488fe46e686933d36c423a242",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 193,
+          "sourceLine": 193,
+          "requestId": "8bce7ca488fe46e686933d36c423a242",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 194,
+          "sourceLine": 194,
+          "requestId": "8bce7ca488fe46e686933d36c423a242",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 195,
+          "sourceLine": 195,
+          "requestId": "c7ca7d76c8024d7691217d951b2558de",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 196,
+          "sourceLine": 196,
+          "requestId": "c7ca7d76c8024d7691217d951b2558de",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 197,
+          "sourceLine": 197,
+          "requestId": "c7ca7d76c8024d7691217d951b2558de",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 198,
+          "sourceLine": 198,
+          "requestId": "5aef87943d564dac8435f53445efc272",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 199,
+          "sourceLine": 199,
+          "requestId": "5aef87943d564dac8435f53445efc272",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 200,
+          "sourceLine": 200,
+          "requestId": "6422994b15e54607a3ccdd9a67b1d3db",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 201,
+          "sourceLine": 201,
+          "requestId": "6422994b15e54607a3ccdd9a67b1d3db",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 202,
+          "sourceLine": 202,
+          "requestId": "daa3d01f3a44424e8280fafe778ac9f6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 203,
+          "sourceLine": 203,
+          "requestId": "daa3d01f3a44424e8280fafe778ac9f6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 204,
+          "sourceLine": 204,
+          "requestId": "daa3d01f3a44424e8280fafe778ac9f6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 205,
+          "sourceLine": 205,
+          "requestId": "ce4c0cd4cae9452a808012ce036cab05",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 206,
+          "sourceLine": 206,
+          "requestId": "ce4c0cd4cae9452a808012ce036cab05",
+          "recordType": "gameplay_event"
+        }
+      ],
+      "lexicalDirectory": "<PROJECT_ROOT>/Backend/reports/lexical_frozen72_v3",
+      "semanticDirectory": "<PROJECT_ROOT>/Backend/reports/semantic_frozen72_v1"
+    },
+    {
+      "label": "Terra",
+      "requestedModel": "gpt-5.6-terra",
+      "sourcePath": "<PROJECT_ROOT>/Backend/logs/terra_gameplay_run01.jsonl",
+      "sourcePrefixLines": 216,
+      "sourcePrefixSha256": "2db1a0430dc58316d6419db420980d4c48468fad8b003b799ae36b30f1c13b1b",
+      "excludedPrefixLines": [],
+      "exclusionReason": null,
+      "afterPrefixPolicy": "Exclude every subsequent record; retain unchanged in source log",
+      "sourceFullSha256AtPreparation": "6059e7bf09dd35b989f4f6b54f88da68a733125425a914134344962336f6d53f",
+      "sourcePhysicalLinesAtPreparation": 218,
+      "sourceGenerationCountsByOriginAtPreparation": {
+        "openai": 73
+      },
+      "excludedRecordsAtPreparation": [
+        {
+          "sourceLine": 217,
+          "requestId": "9d004042884e4368988be0fda4a38d2b",
+          "recordType": "generation",
+          "eventType": null,
+          "reason": "after fixed cohort boundary"
+        },
+        {
+          "sourceLine": 218,
+          "requestId": "9d004042884e4368988be0fda4a38d2b",
+          "recordType": "gameplay_event",
+          "eventType": "scenario_started",
+          "reason": "after fixed cohort boundary"
+        }
+      ],
+      "inputPath": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/input_frozen72.jsonl",
+      "inputLines": 216,
+      "inputSha256": "2db1a0430dc58316d6419db420980d4c48468fad8b003b799ae36b30f1c13b1b",
+      "generationRecords": 72,
+      "scenarioGenerationCounts": {
+        "collect_mushroom_01": 9,
+        "kill_torch_01": 9,
+        "slay_caveborn_bear_01": 9,
+        "slay_caveborn_lizard_01": 9,
+        "slay_caveborn_snake_01": 9,
+        "slay_caveborn_spider_01": 9,
+        "slay_caveborn_turtle_01": 9,
+        "slay_torch_boss_01": 9
+      },
+      "withinScenarioPairs": 288,
+      "completedEvents": 72,
+      "continuityVerification": "empty initial context; every later generation matches preceding generation summary; all 72 completions present (event writes may arrive late)",
+      "sourceLineMapping": [
+        {
+          "inputLine": 1,
+          "sourceLine": 1,
+          "requestId": "d389ad6a45f64ec09dd1b255ad92b0c6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 2,
+          "sourceLine": 2,
+          "requestId": "d389ad6a45f64ec09dd1b255ad92b0c6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 3,
+          "sourceLine": 3,
+          "requestId": "d389ad6a45f64ec09dd1b255ad92b0c6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 4,
+          "sourceLine": 4,
+          "requestId": "d1c1333184ae4b7a85292521c820296e",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 5,
+          "sourceLine": 5,
+          "requestId": "d1c1333184ae4b7a85292521c820296e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 6,
+          "sourceLine": 6,
+          "requestId": "d1c1333184ae4b7a85292521c820296e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 7,
+          "sourceLine": 7,
+          "requestId": "d8dbbef11789454c9bb9c8c3b334c1d5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 8,
+          "sourceLine": 8,
+          "requestId": "d8dbbef11789454c9bb9c8c3b334c1d5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 9,
+          "sourceLine": 9,
+          "requestId": "d8dbbef11789454c9bb9c8c3b334c1d5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 10,
+          "sourceLine": 10,
+          "requestId": "22a9456d941845b5bddb969b371fd761",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 11,
+          "sourceLine": 11,
+          "requestId": "22a9456d941845b5bddb969b371fd761",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 12,
+          "sourceLine": 12,
+          "requestId": "22a9456d941845b5bddb969b371fd761",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 13,
+          "sourceLine": 13,
+          "requestId": "cb6fe926ffa146a7b4e3a9e7eb1cc614",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 14,
+          "sourceLine": 14,
+          "requestId": "cb6fe926ffa146a7b4e3a9e7eb1cc614",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 15,
+          "sourceLine": 15,
+          "requestId": "cb6fe926ffa146a7b4e3a9e7eb1cc614",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 16,
+          "sourceLine": 16,
+          "requestId": "b8d91a76cc8a455393c914b7e60d1c86",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 17,
+          "sourceLine": 17,
+          "requestId": "b8d91a76cc8a455393c914b7e60d1c86",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 18,
+          "sourceLine": 18,
+          "requestId": "b8d91a76cc8a455393c914b7e60d1c86",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 19,
+          "sourceLine": 19,
+          "requestId": "3259001a5f42437bad06a18ede591708",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 20,
+          "sourceLine": 20,
+          "requestId": "3259001a5f42437bad06a18ede591708",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 21,
+          "sourceLine": 21,
+          "requestId": "3259001a5f42437bad06a18ede591708",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 22,
+          "sourceLine": 22,
+          "requestId": "5b90227eafd44b218bcc8500c2b026ed",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 23,
+          "sourceLine": 23,
+          "requestId": "5b90227eafd44b218bcc8500c2b026ed",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 24,
+          "sourceLine": 24,
+          "requestId": "5b90227eafd44b218bcc8500c2b026ed",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 25,
+          "sourceLine": 25,
+          "requestId": "9833f4dd3cd443c3b8b3dd3164ed4f6c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 26,
+          "sourceLine": 26,
+          "requestId": "9833f4dd3cd443c3b8b3dd3164ed4f6c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 27,
+          "sourceLine": 27,
+          "requestId": "9833f4dd3cd443c3b8b3dd3164ed4f6c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 28,
+          "sourceLine": 28,
+          "requestId": "57b6f3a601de46548eb395df0f50f621",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 29,
+          "sourceLine": 29,
+          "requestId": "57b6f3a601de46548eb395df0f50f621",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 30,
+          "sourceLine": 30,
+          "requestId": "57b6f3a601de46548eb395df0f50f621",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 31,
+          "sourceLine": 31,
+          "requestId": "ebef9250f3834a068df4b36398460f06",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 32,
+          "sourceLine": 32,
+          "requestId": "ebef9250f3834a068df4b36398460f06",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 33,
+          "sourceLine": 33,
+          "requestId": "ebef9250f3834a068df4b36398460f06",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 34,
+          "sourceLine": 34,
+          "requestId": "d7e1d8fabb4240b7ab6ef3e8524628c0",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 35,
+          "sourceLine": 35,
+          "requestId": "d7e1d8fabb4240b7ab6ef3e8524628c0",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 36,
+          "sourceLine": 36,
+          "requestId": "d7e1d8fabb4240b7ab6ef3e8524628c0",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 37,
+          "sourceLine": 37,
+          "requestId": "0e83cd86e85444dc875a4ed3a4fd24b8",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 38,
+          "sourceLine": 38,
+          "requestId": "0e83cd86e85444dc875a4ed3a4fd24b8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 39,
+          "sourceLine": 39,
+          "requestId": "0e83cd86e85444dc875a4ed3a4fd24b8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 40,
+          "sourceLine": 40,
+          "requestId": "192d0181e1f443978c7cb89e8f8d61a2",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 41,
+          "sourceLine": 41,
+          "requestId": "192d0181e1f443978c7cb89e8f8d61a2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 42,
+          "sourceLine": 42,
+          "requestId": "192d0181e1f443978c7cb89e8f8d61a2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 43,
+          "sourceLine": 43,
+          "requestId": "f12dd1a572ea49d999c4dfd9dab1ef1b",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 44,
+          "sourceLine": 44,
+          "requestId": "f12dd1a572ea49d999c4dfd9dab1ef1b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 45,
+          "sourceLine": 45,
+          "requestId": "f12dd1a572ea49d999c4dfd9dab1ef1b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 46,
+          "sourceLine": 46,
+          "requestId": "bd27598ae5524aadad04df9f87ff69d9",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 47,
+          "sourceLine": 47,
+          "requestId": "bd27598ae5524aadad04df9f87ff69d9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 48,
+          "sourceLine": 48,
+          "requestId": "bd27598ae5524aadad04df9f87ff69d9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 49,
+          "sourceLine": 49,
+          "requestId": "2ce031f0a0a747cea82b82cd7d6145fb",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 50,
+          "sourceLine": 50,
+          "requestId": "2ce031f0a0a747cea82b82cd7d6145fb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 51,
+          "sourceLine": 51,
+          "requestId": "2ce031f0a0a747cea82b82cd7d6145fb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 52,
+          "sourceLine": 52,
+          "requestId": "b9ac0f45d1394dbf9ee0cacf1453d9a0",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 53,
+          "sourceLine": 53,
+          "requestId": "b9ac0f45d1394dbf9ee0cacf1453d9a0",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 54,
+          "sourceLine": 54,
+          "requestId": "b9ac0f45d1394dbf9ee0cacf1453d9a0",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 55,
+          "sourceLine": 55,
+          "requestId": "ef4a803591634ef09867b7a8175eaeb7",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 56,
+          "sourceLine": 56,
+          "requestId": "ef4a803591634ef09867b7a8175eaeb7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 57,
+          "sourceLine": 57,
+          "requestId": "ef4a803591634ef09867b7a8175eaeb7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 58,
+          "sourceLine": 58,
+          "requestId": "b499cf38b16f42a491deff8fcd8a708a",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 59,
+          "sourceLine": 59,
+          "requestId": "b499cf38b16f42a491deff8fcd8a708a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 60,
+          "sourceLine": 60,
+          "requestId": "b499cf38b16f42a491deff8fcd8a708a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 61,
+          "sourceLine": 61,
+          "requestId": "59031cd139f046859c88194cfadcf4df",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 62,
+          "sourceLine": 62,
+          "requestId": "59031cd139f046859c88194cfadcf4df",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 63,
+          "sourceLine": 63,
+          "requestId": "59031cd139f046859c88194cfadcf4df",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 64,
+          "sourceLine": 64,
+          "requestId": "b7f59dadaf0e423e875b172d0a020ecf",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 65,
+          "sourceLine": 65,
+          "requestId": "b7f59dadaf0e423e875b172d0a020ecf",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 66,
+          "sourceLine": 66,
+          "requestId": "b7f59dadaf0e423e875b172d0a020ecf",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 67,
+          "sourceLine": 67,
+          "requestId": "0131c70b1ec54b408fd29836e8f2a908",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 68,
+          "sourceLine": 68,
+          "requestId": "0131c70b1ec54b408fd29836e8f2a908",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 69,
+          "sourceLine": 69,
+          "requestId": "0131c70b1ec54b408fd29836e8f2a908",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 70,
+          "sourceLine": 70,
+          "requestId": "4ed7321ef950481693c78b794ac64d39",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 71,
+          "sourceLine": 71,
+          "requestId": "4ed7321ef950481693c78b794ac64d39",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 72,
+          "sourceLine": 72,
+          "requestId": "4ed7321ef950481693c78b794ac64d39",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 73,
+          "sourceLine": 73,
+          "requestId": "0e1015a629644024a4a322a27b1b79c4",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 74,
+          "sourceLine": 74,
+          "requestId": "0e1015a629644024a4a322a27b1b79c4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 75,
+          "sourceLine": 75,
+          "requestId": "0e1015a629644024a4a322a27b1b79c4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 76,
+          "sourceLine": 76,
+          "requestId": "d7ee71f9e91f44ed826155974fa2d827",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 77,
+          "sourceLine": 77,
+          "requestId": "d7ee71f9e91f44ed826155974fa2d827",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 78,
+          "sourceLine": 78,
+          "requestId": "d7ee71f9e91f44ed826155974fa2d827",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 79,
+          "sourceLine": 79,
+          "requestId": "c94e6867c42047189a573ebb56ed05f5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 80,
+          "sourceLine": 80,
+          "requestId": "c94e6867c42047189a573ebb56ed05f5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 81,
+          "sourceLine": 81,
+          "requestId": "c94e6867c42047189a573ebb56ed05f5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 82,
+          "sourceLine": 82,
+          "requestId": "900b74340c3d4ef8a6a5719574afa3b5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 83,
+          "sourceLine": 83,
+          "requestId": "900b74340c3d4ef8a6a5719574afa3b5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 84,
+          "sourceLine": 84,
+          "requestId": "900b74340c3d4ef8a6a5719574afa3b5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 85,
+          "sourceLine": 85,
+          "requestId": "ed2b10cb96d54bd3a6886fb9e10e214f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 86,
+          "sourceLine": 86,
+          "requestId": "ed2b10cb96d54bd3a6886fb9e10e214f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 87,
+          "sourceLine": 87,
+          "requestId": "ed2b10cb96d54bd3a6886fb9e10e214f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 88,
+          "sourceLine": 88,
+          "requestId": "39f38e305cff47a988866606db302201",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 89,
+          "sourceLine": 89,
+          "requestId": "39f38e305cff47a988866606db302201",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 90,
+          "sourceLine": 90,
+          "requestId": "39f38e305cff47a988866606db302201",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 91,
+          "sourceLine": 91,
+          "requestId": "c2103ecbd4a64f3aac46e516b3665e74",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 92,
+          "sourceLine": 92,
+          "requestId": "c2103ecbd4a64f3aac46e516b3665e74",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 93,
+          "sourceLine": 93,
+          "requestId": "c2103ecbd4a64f3aac46e516b3665e74",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 94,
+          "sourceLine": 94,
+          "requestId": "023bc552f8974829a98897b028a07b4e",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 95,
+          "sourceLine": 95,
+          "requestId": "023bc552f8974829a98897b028a07b4e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 96,
+          "sourceLine": 96,
+          "requestId": "023bc552f8974829a98897b028a07b4e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 97,
+          "sourceLine": 97,
+          "requestId": "0db80b4e7ac2475bbfc167de58bad32f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 98,
+          "sourceLine": 98,
+          "requestId": "0db80b4e7ac2475bbfc167de58bad32f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 99,
+          "sourceLine": 99,
+          "requestId": "0db80b4e7ac2475bbfc167de58bad32f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 100,
+          "sourceLine": 100,
+          "requestId": "9f98fa773faf466faa4699351120cc1f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 101,
+          "sourceLine": 101,
+          "requestId": "9f98fa773faf466faa4699351120cc1f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 102,
+          "sourceLine": 102,
+          "requestId": "9f98fa773faf466faa4699351120cc1f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 103,
+          "sourceLine": 103,
+          "requestId": "2c97f044cc964456bbde4901548559b0",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 104,
+          "sourceLine": 104,
+          "requestId": "2c97f044cc964456bbde4901548559b0",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 105,
+          "sourceLine": 105,
+          "requestId": "2c97f044cc964456bbde4901548559b0",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 106,
+          "sourceLine": 106,
+          "requestId": "3c0f69cdc27946189cda72b2bd1bb7f2",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 107,
+          "sourceLine": 107,
+          "requestId": "3c0f69cdc27946189cda72b2bd1bb7f2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 108,
+          "sourceLine": 108,
+          "requestId": "3c0f69cdc27946189cda72b2bd1bb7f2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 109,
+          "sourceLine": 109,
+          "requestId": "267784bbf971473baa8e09ee64a2ca3a",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 110,
+          "sourceLine": 110,
+          "requestId": "267784bbf971473baa8e09ee64a2ca3a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 111,
+          "sourceLine": 111,
+          "requestId": "267784bbf971473baa8e09ee64a2ca3a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 112,
+          "sourceLine": 112,
+          "requestId": "28c908ec47e84384b894f4a22f971122",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 113,
+          "sourceLine": 113,
+          "requestId": "28c908ec47e84384b894f4a22f971122",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 114,
+          "sourceLine": 114,
+          "requestId": "28c908ec47e84384b894f4a22f971122",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 115,
+          "sourceLine": 115,
+          "requestId": "7d008140bc2641bf90b90954f3de6963",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 116,
+          "sourceLine": 116,
+          "requestId": "7d008140bc2641bf90b90954f3de6963",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 117,
+          "sourceLine": 117,
+          "requestId": "7d008140bc2641bf90b90954f3de6963",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 118,
+          "sourceLine": 118,
+          "requestId": "5d3bcdd0106d454b9986caf2571e3084",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 119,
+          "sourceLine": 119,
+          "requestId": "5d3bcdd0106d454b9986caf2571e3084",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 120,
+          "sourceLine": 120,
+          "requestId": "5d3bcdd0106d454b9986caf2571e3084",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 121,
+          "sourceLine": 121,
+          "requestId": "a328efa0dbee4df897bf184d25e1fd2e",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 122,
+          "sourceLine": 122,
+          "requestId": "a328efa0dbee4df897bf184d25e1fd2e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 123,
+          "sourceLine": 123,
+          "requestId": "a328efa0dbee4df897bf184d25e1fd2e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 124,
+          "sourceLine": 124,
+          "requestId": "0f179dc453f547cc896d89e50774b967",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 125,
+          "sourceLine": 125,
+          "requestId": "0f179dc453f547cc896d89e50774b967",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 126,
+          "sourceLine": 126,
+          "requestId": "0f179dc453f547cc896d89e50774b967",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 127,
+          "sourceLine": 127,
+          "requestId": "7970fe29753a4b4c910a3bab81fe4c28",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 128,
+          "sourceLine": 128,
+          "requestId": "7970fe29753a4b4c910a3bab81fe4c28",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 129,
+          "sourceLine": 129,
+          "requestId": "7970fe29753a4b4c910a3bab81fe4c28",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 130,
+          "sourceLine": 130,
+          "requestId": "504ab5537653453f92dfd87f88625d6a",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 131,
+          "sourceLine": 131,
+          "requestId": "504ab5537653453f92dfd87f88625d6a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 132,
+          "sourceLine": 132,
+          "requestId": "504ab5537653453f92dfd87f88625d6a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 133,
+          "sourceLine": 133,
+          "requestId": "8f4d2906f16848eba0aef6d7da213e87",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 134,
+          "sourceLine": 134,
+          "requestId": "8f4d2906f16848eba0aef6d7da213e87",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 135,
+          "sourceLine": 135,
+          "requestId": "8f4d2906f16848eba0aef6d7da213e87",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 136,
+          "sourceLine": 136,
+          "requestId": "0a2f7e7b9cea4ed4b7a00c01fd9a0b33",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 137,
+          "sourceLine": 137,
+          "requestId": "0a2f7e7b9cea4ed4b7a00c01fd9a0b33",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 138,
+          "sourceLine": 138,
+          "requestId": "0a2f7e7b9cea4ed4b7a00c01fd9a0b33",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 139,
+          "sourceLine": 139,
+          "requestId": "75d27ce875e5482fb8f9324accd50ac5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 140,
+          "sourceLine": 140,
+          "requestId": "75d27ce875e5482fb8f9324accd50ac5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 141,
+          "sourceLine": 141,
+          "requestId": "75d27ce875e5482fb8f9324accd50ac5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 142,
+          "sourceLine": 142,
+          "requestId": "ef46ba8e05e64cdfba19c2024602c490",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 143,
+          "sourceLine": 143,
+          "requestId": "ef46ba8e05e64cdfba19c2024602c490",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 144,
+          "sourceLine": 144,
+          "requestId": "ef46ba8e05e64cdfba19c2024602c490",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 145,
+          "sourceLine": 145,
+          "requestId": "b4fc196c68da484daa08dd1074d7895e",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 146,
+          "sourceLine": 146,
+          "requestId": "b4fc196c68da484daa08dd1074d7895e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 147,
+          "sourceLine": 147,
+          "requestId": "b4fc196c68da484daa08dd1074d7895e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 148,
+          "sourceLine": 148,
+          "requestId": "7aa01972e0cf472992f01b933552109f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 149,
+          "sourceLine": 149,
+          "requestId": "7aa01972e0cf472992f01b933552109f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 150,
+          "sourceLine": 150,
+          "requestId": "7aa01972e0cf472992f01b933552109f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 151,
+          "sourceLine": 151,
+          "requestId": "021fc7e35a6a44e69a0f5847a6916ba7",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 152,
+          "sourceLine": 152,
+          "requestId": "021fc7e35a6a44e69a0f5847a6916ba7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 153,
+          "sourceLine": 153,
+          "requestId": "021fc7e35a6a44e69a0f5847a6916ba7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 154,
+          "sourceLine": 154,
+          "requestId": "1c1f9df72ebc4a3da516e6736d2f6749",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 155,
+          "sourceLine": 155,
+          "requestId": "1c1f9df72ebc4a3da516e6736d2f6749",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 156,
+          "sourceLine": 156,
+          "requestId": "1c1f9df72ebc4a3da516e6736d2f6749",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 157,
+          "sourceLine": 157,
+          "requestId": "0eb0c95b2cae4393895baf6607216c21",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 158,
+          "sourceLine": 158,
+          "requestId": "0eb0c95b2cae4393895baf6607216c21",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 159,
+          "sourceLine": 159,
+          "requestId": "0eb0c95b2cae4393895baf6607216c21",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 160,
+          "sourceLine": 160,
+          "requestId": "cffc768876af469bb3839117fdf412b7",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 161,
+          "sourceLine": 161,
+          "requestId": "cffc768876af469bb3839117fdf412b7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 162,
+          "sourceLine": 162,
+          "requestId": "cffc768876af469bb3839117fdf412b7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 163,
+          "sourceLine": 163,
+          "requestId": "99f2ef67b9c04f63ac5361d3ca57fee6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 164,
+          "sourceLine": 164,
+          "requestId": "99f2ef67b9c04f63ac5361d3ca57fee6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 165,
+          "sourceLine": 165,
+          "requestId": "99f2ef67b9c04f63ac5361d3ca57fee6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 166,
+          "sourceLine": 166,
+          "requestId": "512b469e47ec46d193da3101b7b81e80",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 167,
+          "sourceLine": 167,
+          "requestId": "512b469e47ec46d193da3101b7b81e80",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 168,
+          "sourceLine": 168,
+          "requestId": "512b469e47ec46d193da3101b7b81e80",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 169,
+          "sourceLine": 169,
+          "requestId": "7a01c1624d68402dbfd838b88e1a28b8",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 170,
+          "sourceLine": 170,
+          "requestId": "7a01c1624d68402dbfd838b88e1a28b8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 171,
+          "sourceLine": 171,
+          "requestId": "7a01c1624d68402dbfd838b88e1a28b8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 172,
+          "sourceLine": 172,
+          "requestId": "81959968963c47b9a94b79060f30426b",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 173,
+          "sourceLine": 173,
+          "requestId": "81959968963c47b9a94b79060f30426b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 174,
+          "sourceLine": 174,
+          "requestId": "81959968963c47b9a94b79060f30426b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 175,
+          "sourceLine": 175,
+          "requestId": "bdc140fa899b463d93a14b3c649df7c3",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 176,
+          "sourceLine": 176,
+          "requestId": "bdc140fa899b463d93a14b3c649df7c3",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 177,
+          "sourceLine": 177,
+          "requestId": "bdc140fa899b463d93a14b3c649df7c3",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 178,
+          "sourceLine": 178,
+          "requestId": "654c5bbd343c49b08ac290cbd812fe44",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 179,
+          "sourceLine": 179,
+          "requestId": "654c5bbd343c49b08ac290cbd812fe44",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 180,
+          "sourceLine": 180,
+          "requestId": "654c5bbd343c49b08ac290cbd812fe44",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 181,
+          "sourceLine": 181,
+          "requestId": "4d960bae041c43a5848e7bd971640aef",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 182,
+          "sourceLine": 182,
+          "requestId": "4d960bae041c43a5848e7bd971640aef",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 183,
+          "sourceLine": 183,
+          "requestId": "4d960bae041c43a5848e7bd971640aef",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 184,
+          "sourceLine": 184,
+          "requestId": "3b95fa4c25a847dabc4578818fc4480d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 185,
+          "sourceLine": 185,
+          "requestId": "3b95fa4c25a847dabc4578818fc4480d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 186,
+          "sourceLine": 186,
+          "requestId": "3b95fa4c25a847dabc4578818fc4480d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 187,
+          "sourceLine": 187,
+          "requestId": "01e3d7dc0721429398ee00e28cff7cd4",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 188,
+          "sourceLine": 188,
+          "requestId": "01e3d7dc0721429398ee00e28cff7cd4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 189,
+          "sourceLine": 189,
+          "requestId": "01e3d7dc0721429398ee00e28cff7cd4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 190,
+          "sourceLine": 190,
+          "requestId": "0e75da86b15246208423495aef0018b9",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 191,
+          "sourceLine": 191,
+          "requestId": "0e75da86b15246208423495aef0018b9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 192,
+          "sourceLine": 192,
+          "requestId": "0e75da86b15246208423495aef0018b9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 193,
+          "sourceLine": 193,
+          "requestId": "e3208bb3bc6c4509a3f71769dd06298c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 194,
+          "sourceLine": 194,
+          "requestId": "e3208bb3bc6c4509a3f71769dd06298c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 195,
+          "sourceLine": 195,
+          "requestId": "e3208bb3bc6c4509a3f71769dd06298c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 196,
+          "sourceLine": 196,
+          "requestId": "9b7cfdc3ef3f4bff92f58847046c4aa6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 197,
+          "sourceLine": 197,
+          "requestId": "9b7cfdc3ef3f4bff92f58847046c4aa6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 198,
+          "sourceLine": 198,
+          "requestId": "9b7cfdc3ef3f4bff92f58847046c4aa6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 199,
+          "sourceLine": 199,
+          "requestId": "df62f394f7da40cd960195f0de0f8205",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 200,
+          "sourceLine": 200,
+          "requestId": "df62f394f7da40cd960195f0de0f8205",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 201,
+          "sourceLine": 201,
+          "requestId": "df62f394f7da40cd960195f0de0f8205",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 202,
+          "sourceLine": 202,
+          "requestId": "c379082ef386419a89c75b7c53d9960d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 203,
+          "sourceLine": 203,
+          "requestId": "c379082ef386419a89c75b7c53d9960d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 204,
+          "sourceLine": 204,
+          "requestId": "c379082ef386419a89c75b7c53d9960d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 205,
+          "sourceLine": 205,
+          "requestId": "a7235b636e524909b609689e66dcd570",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 206,
+          "sourceLine": 206,
+          "requestId": "a7235b636e524909b609689e66dcd570",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 207,
+          "sourceLine": 207,
+          "requestId": "a7235b636e524909b609689e66dcd570",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 208,
+          "sourceLine": 208,
+          "requestId": "c0046fc7f8004b90bd4c3c486684194c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 209,
+          "sourceLine": 209,
+          "requestId": "c0046fc7f8004b90bd4c3c486684194c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 210,
+          "sourceLine": 210,
+          "requestId": "c0046fc7f8004b90bd4c3c486684194c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 211,
+          "sourceLine": 211,
+          "requestId": "415046b383cd4c899af0fa653e45aab3",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 212,
+          "sourceLine": 212,
+          "requestId": "415046b383cd4c899af0fa653e45aab3",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 213,
+          "sourceLine": 213,
+          "requestId": "415046b383cd4c899af0fa653e45aab3",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 214,
+          "sourceLine": 214,
+          "requestId": "17ecea3434cb4d049d25588649c517b2",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 215,
+          "sourceLine": 215,
+          "requestId": "17ecea3434cb4d049d25588649c517b2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 216,
+          "sourceLine": 216,
+          "requestId": "17ecea3434cb4d049d25588649c517b2",
+          "recordType": "gameplay_event"
+        }
+      ],
+      "lexicalDirectory": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/lexical",
+      "semanticDirectory": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/semantic"
+    },
+    {
+      "label": "Luna",
+      "requestedModel": "gpt-5.6-luna",
+      "sourcePath": "<PROJECT_ROOT>/Backend/logs/luna_gameplay_run01.jsonl",
+      "sourcePrefixLines": 217,
+      "sourcePrefixSha256": "8bc6a5e357e89285df6a26a2c53d44bc80aed374219391c688fbf4cc2ca1592c",
+      "excludedPrefixLines": [
+        1
+      ],
+      "exclusionReason": "connection-error fallback; not model-generated text",
+      "afterPrefixPolicy": "Exclude every subsequent record; retain unchanged in source log",
+      "sourceFullSha256AtPreparation": "fc28adade84be448d9f730a65548f4d56d9a100bed9d5543a2c1bdeb52519dcc",
+      "sourcePhysicalLinesAtPreparation": 219,
+      "sourceGenerationCountsByOriginAtPreparation": {
+        "fallback": 1,
+        "openai": 73
+      },
+      "excludedRecordsAtPreparation": [
+        {
+          "sourceLine": 1,
+          "requestId": "760f00acb39244a2a577485a15356efa",
+          "recordType": "generation",
+          "eventType": null,
+          "reason": "known connection-error fallback"
+        },
+        {
+          "sourceLine": 218,
+          "requestId": "4fa8af0f0f5c469ba74e5f2787eccd16",
+          "recordType": "generation",
+          "eventType": null,
+          "reason": "after fixed cohort boundary"
+        },
+        {
+          "sourceLine": 219,
+          "requestId": "4fa8af0f0f5c469ba74e5f2787eccd16",
+          "recordType": "gameplay_event",
+          "eventType": "scenario_started",
+          "reason": "after fixed cohort boundary"
+        }
+      ],
+      "inputPath": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/input_frozen72.jsonl",
+      "inputLines": 216,
+      "inputSha256": "5f05b7b1e96ab17de58b89cd9bcad3f23f62eba9b8a1571dcd60d2b79940c568",
+      "generationRecords": 72,
+      "scenarioGenerationCounts": {
+        "collect_mushroom_01": 9,
+        "kill_torch_01": 9,
+        "slay_caveborn_bear_01": 9,
+        "slay_caveborn_lizard_01": 9,
+        "slay_caveborn_snake_01": 9,
+        "slay_caveborn_spider_01": 9,
+        "slay_caveborn_turtle_01": 9,
+        "slay_torch_boss_01": 9
+      },
+      "withinScenarioPairs": 288,
+      "completedEvents": 72,
+      "continuityVerification": "empty initial context; every later generation matches preceding generation summary; all 72 completions present (event writes may arrive late)",
+      "sourceLineMapping": [
+        {
+          "inputLine": 1,
+          "sourceLine": 2,
+          "requestId": "638fffd263fc43ec804fe229f42c325f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 2,
+          "sourceLine": 3,
+          "requestId": "638fffd263fc43ec804fe229f42c325f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 3,
+          "sourceLine": 4,
+          "requestId": "638fffd263fc43ec804fe229f42c325f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 4,
+          "sourceLine": 5,
+          "requestId": "578dea9b86cb45a19b030271cc27783d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 5,
+          "sourceLine": 6,
+          "requestId": "578dea9b86cb45a19b030271cc27783d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 6,
+          "sourceLine": 7,
+          "requestId": "578dea9b86cb45a19b030271cc27783d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 7,
+          "sourceLine": 8,
+          "requestId": "812a72bc6d0e4147a848d31f6d0b6558",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 8,
+          "sourceLine": 9,
+          "requestId": "812a72bc6d0e4147a848d31f6d0b6558",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 9,
+          "sourceLine": 10,
+          "requestId": "812a72bc6d0e4147a848d31f6d0b6558",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 10,
+          "sourceLine": 11,
+          "requestId": "aec6ce8d8c8e476db6334648a8957e73",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 11,
+          "sourceLine": 12,
+          "requestId": "aec6ce8d8c8e476db6334648a8957e73",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 12,
+          "sourceLine": 13,
+          "requestId": "aec6ce8d8c8e476db6334648a8957e73",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 13,
+          "sourceLine": 14,
+          "requestId": "c261543583ee402287f2d1cf96783789",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 14,
+          "sourceLine": 15,
+          "requestId": "c261543583ee402287f2d1cf96783789",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 15,
+          "sourceLine": 16,
+          "requestId": "c261543583ee402287f2d1cf96783789",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 16,
+          "sourceLine": 17,
+          "requestId": "dd28a415a06f4f819863c9982957e1bd",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 17,
+          "sourceLine": 18,
+          "requestId": "dd28a415a06f4f819863c9982957e1bd",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 18,
+          "sourceLine": 19,
+          "requestId": "dd28a415a06f4f819863c9982957e1bd",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 19,
+          "sourceLine": 20,
+          "requestId": "da6d0a6b9a4d4a63a5cdee3bf14fcc3d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 20,
+          "sourceLine": 21,
+          "requestId": "da6d0a6b9a4d4a63a5cdee3bf14fcc3d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 21,
+          "sourceLine": 22,
+          "requestId": "da6d0a6b9a4d4a63a5cdee3bf14fcc3d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 22,
+          "sourceLine": 23,
+          "requestId": "9d95fd68135c45ce808847a8df993663",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 23,
+          "sourceLine": 24,
+          "requestId": "9d95fd68135c45ce808847a8df993663",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 24,
+          "sourceLine": 25,
+          "requestId": "9d95fd68135c45ce808847a8df993663",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 25,
+          "sourceLine": 26,
+          "requestId": "e3aafaeb676b4f96821f7f3220e41ca2",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 26,
+          "sourceLine": 27,
+          "requestId": "e3aafaeb676b4f96821f7f3220e41ca2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 27,
+          "sourceLine": 28,
+          "requestId": "e3aafaeb676b4f96821f7f3220e41ca2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 28,
+          "sourceLine": 29,
+          "requestId": "be16f61228674ca9a6358a1e0cd073cd",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 29,
+          "sourceLine": 30,
+          "requestId": "be16f61228674ca9a6358a1e0cd073cd",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 30,
+          "sourceLine": 31,
+          "requestId": "be16f61228674ca9a6358a1e0cd073cd",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 31,
+          "sourceLine": 32,
+          "requestId": "c84b1ba69ae446619a41055a692f39fb",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 32,
+          "sourceLine": 33,
+          "requestId": "c84b1ba69ae446619a41055a692f39fb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 33,
+          "sourceLine": 34,
+          "requestId": "c84b1ba69ae446619a41055a692f39fb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 34,
+          "sourceLine": 35,
+          "requestId": "965f2be42eb741ee9770f8cc8374d652",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 35,
+          "sourceLine": 36,
+          "requestId": "965f2be42eb741ee9770f8cc8374d652",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 36,
+          "sourceLine": 37,
+          "requestId": "965f2be42eb741ee9770f8cc8374d652",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 37,
+          "sourceLine": 38,
+          "requestId": "192daa4a28624e83b5b061097846dd19",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 38,
+          "sourceLine": 39,
+          "requestId": "192daa4a28624e83b5b061097846dd19",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 39,
+          "sourceLine": 40,
+          "requestId": "192daa4a28624e83b5b061097846dd19",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 40,
+          "sourceLine": 41,
+          "requestId": "f058b95ea32a407a926198bed9961cc5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 41,
+          "sourceLine": 42,
+          "requestId": "f058b95ea32a407a926198bed9961cc5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 42,
+          "sourceLine": 43,
+          "requestId": "f058b95ea32a407a926198bed9961cc5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 43,
+          "sourceLine": 44,
+          "requestId": "bbe86e9b127e4ad89c12d763e4cf67ff",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 44,
+          "sourceLine": 45,
+          "requestId": "bbe86e9b127e4ad89c12d763e4cf67ff",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 45,
+          "sourceLine": 46,
+          "requestId": "bbe86e9b127e4ad89c12d763e4cf67ff",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 46,
+          "sourceLine": 47,
+          "requestId": "dda3ce6d3201473e839cb79537e5a92c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 47,
+          "sourceLine": 48,
+          "requestId": "dda3ce6d3201473e839cb79537e5a92c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 48,
+          "sourceLine": 49,
+          "requestId": "dda3ce6d3201473e839cb79537e5a92c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 49,
+          "sourceLine": 50,
+          "requestId": "d6d4495dd9a84b30a3a7e3923b253a54",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 50,
+          "sourceLine": 51,
+          "requestId": "d6d4495dd9a84b30a3a7e3923b253a54",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 51,
+          "sourceLine": 52,
+          "requestId": "d6d4495dd9a84b30a3a7e3923b253a54",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 52,
+          "sourceLine": 53,
+          "requestId": "6a558136cd2d4e59a9b8216a3797a9ae",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 53,
+          "sourceLine": 54,
+          "requestId": "6a558136cd2d4e59a9b8216a3797a9ae",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 54,
+          "sourceLine": 55,
+          "requestId": "6a558136cd2d4e59a9b8216a3797a9ae",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 55,
+          "sourceLine": 56,
+          "requestId": "0c55d68ccff44c5293c75aac7a80e141",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 56,
+          "sourceLine": 57,
+          "requestId": "0c55d68ccff44c5293c75aac7a80e141",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 57,
+          "sourceLine": 58,
+          "requestId": "0c55d68ccff44c5293c75aac7a80e141",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 58,
+          "sourceLine": 59,
+          "requestId": "6db27a5a9a7b494ca5678d399c45643d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 59,
+          "sourceLine": 60,
+          "requestId": "6db27a5a9a7b494ca5678d399c45643d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 60,
+          "sourceLine": 61,
+          "requestId": "6db27a5a9a7b494ca5678d399c45643d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 61,
+          "sourceLine": 62,
+          "requestId": "132ff3f2ca4345989faf88449ee7983d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 62,
+          "sourceLine": 63,
+          "requestId": "132ff3f2ca4345989faf88449ee7983d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 63,
+          "sourceLine": 64,
+          "requestId": "132ff3f2ca4345989faf88449ee7983d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 64,
+          "sourceLine": 65,
+          "requestId": "cd7bfeca2db94c58b6bbafa51de3946c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 65,
+          "sourceLine": 66,
+          "requestId": "cd7bfeca2db94c58b6bbafa51de3946c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 66,
+          "sourceLine": 67,
+          "requestId": "cd7bfeca2db94c58b6bbafa51de3946c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 67,
+          "sourceLine": 68,
+          "requestId": "c7f272b80aae4faea3a523eae39222ef",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 68,
+          "sourceLine": 69,
+          "requestId": "c7f272b80aae4faea3a523eae39222ef",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 69,
+          "sourceLine": 70,
+          "requestId": "c7f272b80aae4faea3a523eae39222ef",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 70,
+          "sourceLine": 71,
+          "requestId": "d2984f8b3f1e43bfa1e91dbe671d2c4e",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 71,
+          "sourceLine": 72,
+          "requestId": "d2984f8b3f1e43bfa1e91dbe671d2c4e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 72,
+          "sourceLine": 73,
+          "requestId": "d2984f8b3f1e43bfa1e91dbe671d2c4e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 73,
+          "sourceLine": 74,
+          "requestId": "e5ddb2cc3fff41dbbbf18bfcc3ea4684",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 74,
+          "sourceLine": 75,
+          "requestId": "e5ddb2cc3fff41dbbbf18bfcc3ea4684",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 75,
+          "sourceLine": 76,
+          "requestId": "e5ddb2cc3fff41dbbbf18bfcc3ea4684",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 76,
+          "sourceLine": 77,
+          "requestId": "94010ffd45e54756aee20d451448f450",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 77,
+          "sourceLine": 78,
+          "requestId": "94010ffd45e54756aee20d451448f450",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 78,
+          "sourceLine": 79,
+          "requestId": "94010ffd45e54756aee20d451448f450",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 79,
+          "sourceLine": 80,
+          "requestId": "c8b8234878614118a18de7b192ad9e2f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 80,
+          "sourceLine": 81,
+          "requestId": "c8b8234878614118a18de7b192ad9e2f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 81,
+          "sourceLine": 82,
+          "requestId": "c8b8234878614118a18de7b192ad9e2f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 82,
+          "sourceLine": 83,
+          "requestId": "db08eba91aaf40f48b9943c4e81ec74b",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 83,
+          "sourceLine": 84,
+          "requestId": "db08eba91aaf40f48b9943c4e81ec74b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 84,
+          "sourceLine": 85,
+          "requestId": "db08eba91aaf40f48b9943c4e81ec74b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 85,
+          "sourceLine": 86,
+          "requestId": "a5a6cc03479948ac899a2f5dd792268a",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 86,
+          "sourceLine": 87,
+          "requestId": "a5a6cc03479948ac899a2f5dd792268a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 87,
+          "sourceLine": 88,
+          "requestId": "a5a6cc03479948ac899a2f5dd792268a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 88,
+          "sourceLine": 89,
+          "requestId": "a6a630934803491db9676ec3803ce9f5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 89,
+          "sourceLine": 90,
+          "requestId": "a6a630934803491db9676ec3803ce9f5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 90,
+          "sourceLine": 91,
+          "requestId": "2ff34069fd8b447bbe1ecd41c4398f3d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 91,
+          "sourceLine": 92,
+          "requestId": "a6a630934803491db9676ec3803ce9f5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 92,
+          "sourceLine": 93,
+          "requestId": "2ff34069fd8b447bbe1ecd41c4398f3d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 93,
+          "sourceLine": 94,
+          "requestId": "2ff34069fd8b447bbe1ecd41c4398f3d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 94,
+          "sourceLine": 95,
+          "requestId": "d42ab52bb3b14551bedb817ce7f508bb",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 95,
+          "sourceLine": 96,
+          "requestId": "d42ab52bb3b14551bedb817ce7f508bb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 96,
+          "sourceLine": 97,
+          "requestId": "d42ab52bb3b14551bedb817ce7f508bb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 97,
+          "sourceLine": 98,
+          "requestId": "aec11dd626ac49e1912e756b2474941d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 98,
+          "sourceLine": 99,
+          "requestId": "aec11dd626ac49e1912e756b2474941d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 99,
+          "sourceLine": 100,
+          "requestId": "aec11dd626ac49e1912e756b2474941d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 100,
+          "sourceLine": 101,
+          "requestId": "6b6fd214ebdd49deb364fa0ffc719f0c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 101,
+          "sourceLine": 102,
+          "requestId": "6b6fd214ebdd49deb364fa0ffc719f0c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 102,
+          "sourceLine": 103,
+          "requestId": "6b6fd214ebdd49deb364fa0ffc719f0c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 103,
+          "sourceLine": 104,
+          "requestId": "404a2119c3764cffa42500f36124f347",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 104,
+          "sourceLine": 105,
+          "requestId": "404a2119c3764cffa42500f36124f347",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 105,
+          "sourceLine": 106,
+          "requestId": "404a2119c3764cffa42500f36124f347",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 106,
+          "sourceLine": 107,
+          "requestId": "801f0f914f564f808554c203bf8dca83",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 107,
+          "sourceLine": 108,
+          "requestId": "801f0f914f564f808554c203bf8dca83",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 108,
+          "sourceLine": 109,
+          "requestId": "801f0f914f564f808554c203bf8dca83",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 109,
+          "sourceLine": 110,
+          "requestId": "033f12bc79e24ed886b6e31e025a3b84",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 110,
+          "sourceLine": 111,
+          "requestId": "033f12bc79e24ed886b6e31e025a3b84",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 111,
+          "sourceLine": 112,
+          "requestId": "033f12bc79e24ed886b6e31e025a3b84",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 112,
+          "sourceLine": 113,
+          "requestId": "ff1ce9ba9c094e11b26db5d3e4bfc790",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 113,
+          "sourceLine": 114,
+          "requestId": "ff1ce9ba9c094e11b26db5d3e4bfc790",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 114,
+          "sourceLine": 115,
+          "requestId": "ff1ce9ba9c094e11b26db5d3e4bfc790",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 115,
+          "sourceLine": 116,
+          "requestId": "1f534794fc434d79a8982c393c04be70",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 116,
+          "sourceLine": 117,
+          "requestId": "1f534794fc434d79a8982c393c04be70",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 117,
+          "sourceLine": 118,
+          "requestId": "1f534794fc434d79a8982c393c04be70",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 118,
+          "sourceLine": 119,
+          "requestId": "3a2ff770903a48649400b24804b9e0c5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 119,
+          "sourceLine": 120,
+          "requestId": "3a2ff770903a48649400b24804b9e0c5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 120,
+          "sourceLine": 121,
+          "requestId": "3a2ff770903a48649400b24804b9e0c5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 121,
+          "sourceLine": 122,
+          "requestId": "41a88a49a606460bb3d1e0c5dc93d77d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 122,
+          "sourceLine": 123,
+          "requestId": "41a88a49a606460bb3d1e0c5dc93d77d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 123,
+          "sourceLine": 124,
+          "requestId": "41a88a49a606460bb3d1e0c5dc93d77d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 124,
+          "sourceLine": 125,
+          "requestId": "823b828a2e1c460098b7eaf6e69a127a",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 125,
+          "sourceLine": 126,
+          "requestId": "823b828a2e1c460098b7eaf6e69a127a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 126,
+          "sourceLine": 127,
+          "requestId": "823b828a2e1c460098b7eaf6e69a127a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 127,
+          "sourceLine": 128,
+          "requestId": "f5c3e33473fd40b79982208207174a64",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 128,
+          "sourceLine": 129,
+          "requestId": "f5c3e33473fd40b79982208207174a64",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 129,
+          "sourceLine": 130,
+          "requestId": "f5c3e33473fd40b79982208207174a64",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 130,
+          "sourceLine": 131,
+          "requestId": "baf1bb0a4bc54eb59d502491ab716e24",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 131,
+          "sourceLine": 132,
+          "requestId": "baf1bb0a4bc54eb59d502491ab716e24",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 132,
+          "sourceLine": 133,
+          "requestId": "baf1bb0a4bc54eb59d502491ab716e24",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 133,
+          "sourceLine": 134,
+          "requestId": "265d9ac072544b57b4832f470a9101ee",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 134,
+          "sourceLine": 135,
+          "requestId": "265d9ac072544b57b4832f470a9101ee",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 135,
+          "sourceLine": 136,
+          "requestId": "265d9ac072544b57b4832f470a9101ee",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 136,
+          "sourceLine": 137,
+          "requestId": "d79ac35e1ac244deb87eaaa967533555",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 137,
+          "sourceLine": 138,
+          "requestId": "d79ac35e1ac244deb87eaaa967533555",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 138,
+          "sourceLine": 139,
+          "requestId": "d79ac35e1ac244deb87eaaa967533555",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 139,
+          "sourceLine": 140,
+          "requestId": "6ff52e13a61e4d3b947205255688a049",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 140,
+          "sourceLine": 141,
+          "requestId": "6ff52e13a61e4d3b947205255688a049",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 141,
+          "sourceLine": 142,
+          "requestId": "6ff52e13a61e4d3b947205255688a049",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 142,
+          "sourceLine": 143,
+          "requestId": "4a860d7e703b447aa0aa73d808a0bffa",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 143,
+          "sourceLine": 144,
+          "requestId": "4a860d7e703b447aa0aa73d808a0bffa",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 144,
+          "sourceLine": 145,
+          "requestId": "4a860d7e703b447aa0aa73d808a0bffa",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 145,
+          "sourceLine": 146,
+          "requestId": "7faff025243c4fb780d015ad22f3ce0a",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 146,
+          "sourceLine": 147,
+          "requestId": "7faff025243c4fb780d015ad22f3ce0a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 147,
+          "sourceLine": 148,
+          "requestId": "7faff025243c4fb780d015ad22f3ce0a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 148,
+          "sourceLine": 149,
+          "requestId": "f4a408d064a14b9f99907937b1d3731b",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 149,
+          "sourceLine": 150,
+          "requestId": "f4a408d064a14b9f99907937b1d3731b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 150,
+          "sourceLine": 151,
+          "requestId": "f4a408d064a14b9f99907937b1d3731b",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 151,
+          "sourceLine": 152,
+          "requestId": "404f3b12b85149e7905c79bea45a29c2",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 152,
+          "sourceLine": 153,
+          "requestId": "404f3b12b85149e7905c79bea45a29c2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 153,
+          "sourceLine": 154,
+          "requestId": "404f3b12b85149e7905c79bea45a29c2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 154,
+          "sourceLine": 155,
+          "requestId": "7ce9ef5421774a6988bfedc35b4dfb55",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 155,
+          "sourceLine": 156,
+          "requestId": "7ce9ef5421774a6988bfedc35b4dfb55",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 156,
+          "sourceLine": 157,
+          "requestId": "7ce9ef5421774a6988bfedc35b4dfb55",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 157,
+          "sourceLine": 158,
+          "requestId": "c827a23d1f104688acd23b1022ffeba2",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 158,
+          "sourceLine": 159,
+          "requestId": "c827a23d1f104688acd23b1022ffeba2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 159,
+          "sourceLine": 160,
+          "requestId": "c827a23d1f104688acd23b1022ffeba2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 160,
+          "sourceLine": 161,
+          "requestId": "ac069c3d75cf4d8e90654991c7826642",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 161,
+          "sourceLine": 162,
+          "requestId": "ac069c3d75cf4d8e90654991c7826642",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 162,
+          "sourceLine": 163,
+          "requestId": "ac069c3d75cf4d8e90654991c7826642",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 163,
+          "sourceLine": 164,
+          "requestId": "e48a6de0ca804ad1a24207b399476991",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 164,
+          "sourceLine": 165,
+          "requestId": "e48a6de0ca804ad1a24207b399476991",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 165,
+          "sourceLine": 166,
+          "requestId": "e48a6de0ca804ad1a24207b399476991",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 166,
+          "sourceLine": 167,
+          "requestId": "118aa9130dc344818dd165018bd974be",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 167,
+          "sourceLine": 168,
+          "requestId": "118aa9130dc344818dd165018bd974be",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 168,
+          "sourceLine": 169,
+          "requestId": "118aa9130dc344818dd165018bd974be",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 169,
+          "sourceLine": 170,
+          "requestId": "01e97041599f4b1bb5434995c4f3fd90",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 170,
+          "sourceLine": 171,
+          "requestId": "01e97041599f4b1bb5434995c4f3fd90",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 171,
+          "sourceLine": 172,
+          "requestId": "01e97041599f4b1bb5434995c4f3fd90",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 172,
+          "sourceLine": 173,
+          "requestId": "eb0fef25caa74ea88bc0fdf341786eb2",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 173,
+          "sourceLine": 174,
+          "requestId": "eb0fef25caa74ea88bc0fdf341786eb2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 174,
+          "sourceLine": 175,
+          "requestId": "eb0fef25caa74ea88bc0fdf341786eb2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 175,
+          "sourceLine": 176,
+          "requestId": "510d2a1413c5488697dd007302599f17",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 176,
+          "sourceLine": 177,
+          "requestId": "510d2a1413c5488697dd007302599f17",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 177,
+          "sourceLine": 178,
+          "requestId": "510d2a1413c5488697dd007302599f17",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 178,
+          "sourceLine": 179,
+          "requestId": "f5d647996af94eec9514d0aedf1122b6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 179,
+          "sourceLine": 180,
+          "requestId": "f5d647996af94eec9514d0aedf1122b6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 180,
+          "sourceLine": 181,
+          "requestId": "f5d647996af94eec9514d0aedf1122b6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 181,
+          "sourceLine": 182,
+          "requestId": "4d2677aadb564dfdbbf1c9696c942663",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 182,
+          "sourceLine": 183,
+          "requestId": "4d2677aadb564dfdbbf1c9696c942663",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 183,
+          "sourceLine": 184,
+          "requestId": "4d2677aadb564dfdbbf1c9696c942663",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 184,
+          "sourceLine": 185,
+          "requestId": "b65f131696994cccaac451b05dbd0764",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 185,
+          "sourceLine": 186,
+          "requestId": "b65f131696994cccaac451b05dbd0764",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 186,
+          "sourceLine": 187,
+          "requestId": "b65f131696994cccaac451b05dbd0764",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 187,
+          "sourceLine": 188,
+          "requestId": "6726c5f7d00e40edb749fc0be022ab2d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 188,
+          "sourceLine": 189,
+          "requestId": "6726c5f7d00e40edb749fc0be022ab2d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 189,
+          "sourceLine": 190,
+          "requestId": "6726c5f7d00e40edb749fc0be022ab2d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 190,
+          "sourceLine": 191,
+          "requestId": "5cca661eb46942ce9c0d2c2a9edc92b4",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 191,
+          "sourceLine": 192,
+          "requestId": "5cca661eb46942ce9c0d2c2a9edc92b4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 192,
+          "sourceLine": 193,
+          "requestId": "5cca661eb46942ce9c0d2c2a9edc92b4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 193,
+          "sourceLine": 194,
+          "requestId": "d551fd878ca046a2ada939f6fab368c2",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 194,
+          "sourceLine": 195,
+          "requestId": "d551fd878ca046a2ada939f6fab368c2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 195,
+          "sourceLine": 196,
+          "requestId": "d551fd878ca046a2ada939f6fab368c2",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 196,
+          "sourceLine": 197,
+          "requestId": "60cb5dd655fb424bb808c0bbd87e8d7d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 197,
+          "sourceLine": 198,
+          "requestId": "60cb5dd655fb424bb808c0bbd87e8d7d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 198,
+          "sourceLine": 199,
+          "requestId": "60cb5dd655fb424bb808c0bbd87e8d7d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 199,
+          "sourceLine": 200,
+          "requestId": "13f7da9f166a48a99392a74ca15aa89f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 200,
+          "sourceLine": 201,
+          "requestId": "13f7da9f166a48a99392a74ca15aa89f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 201,
+          "sourceLine": 202,
+          "requestId": "13f7da9f166a48a99392a74ca15aa89f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 202,
+          "sourceLine": 203,
+          "requestId": "a10de5c1b8254f44bf5ee991523a6b85",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 203,
+          "sourceLine": 204,
+          "requestId": "a10de5c1b8254f44bf5ee991523a6b85",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 204,
+          "sourceLine": 205,
+          "requestId": "a10de5c1b8254f44bf5ee991523a6b85",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 205,
+          "sourceLine": 206,
+          "requestId": "7a27609cff99412aa025807377238490",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 206,
+          "sourceLine": 207,
+          "requestId": "7a27609cff99412aa025807377238490",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 207,
+          "sourceLine": 208,
+          "requestId": "7a27609cff99412aa025807377238490",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 208,
+          "sourceLine": 209,
+          "requestId": "412795ab50ee4e71902a13829f496ba9",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 209,
+          "sourceLine": 210,
+          "requestId": "412795ab50ee4e71902a13829f496ba9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 210,
+          "sourceLine": 211,
+          "requestId": "412795ab50ee4e71902a13829f496ba9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 211,
+          "sourceLine": 212,
+          "requestId": "3e9ab433d7c7414cb5daa8c9f50faad6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 212,
+          "sourceLine": 213,
+          "requestId": "3e9ab433d7c7414cb5daa8c9f50faad6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 213,
+          "sourceLine": 214,
+          "requestId": "3e9ab433d7c7414cb5daa8c9f50faad6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 214,
+          "sourceLine": 215,
+          "requestId": "476497ca73394459bcecb3750c3c4497",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 215,
+          "sourceLine": 216,
+          "requestId": "476497ca73394459bcecb3750c3c4497",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 216,
+          "sourceLine": 217,
+          "requestId": "476497ca73394459bcecb3750c3c4497",
+          "recordType": "gameplay_event"
+        }
+      ],
+      "lexicalDirectory": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/lexical",
+      "semanticDirectory": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/semantic"
+    },
+    {
+      "label": "Astra",
+      "requestedModel": "gpt-6-astra",
+      "sourcePath": "<PROJECT_ROOT>/Backend/logs/astra_gameplay_run01.jsonl",
+      "sourcePrefixLines": 216,
+      "sourcePrefixSha256": "0c8529814f8adfae0100bc769964939be1cb8882f5376ce9ae05edae78f6a440",
+      "excludedPrefixLines": [],
+      "exclusionReason": null,
+      "afterPrefixPolicy": "Exclude every subsequent record; retain unchanged in source log",
+      "sourceFullSha256AtPreparation": "7ea30774be64c2fbbbe0a6b0e76688148336997b0f4ff4dd7bd213d6e3a5996d",
+      "sourcePhysicalLinesAtPreparation": 218,
+      "sourceGenerationCountsByOriginAtPreparation": {
+        "openai": 73
+      },
+      "excludedRecordsAtPreparation": [
+        {
+          "sourceLine": 217,
+          "requestId": "7bab1c57788a4a3fa0a1bdedad27c457",
+          "recordType": "generation",
+          "eventType": null,
+          "reason": "after fixed cohort boundary"
+        },
+        {
+          "sourceLine": 218,
+          "requestId": "7bab1c57788a4a3fa0a1bdedad27c457",
+          "recordType": "gameplay_event",
+          "eventType": "scenario_started",
+          "reason": "after fixed cohort boundary"
+        }
+      ],
+      "inputPath": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/input_frozen72.jsonl",
+      "inputLines": 216,
+      "inputSha256": "0c8529814f8adfae0100bc769964939be1cb8882f5376ce9ae05edae78f6a440",
+      "generationRecords": 72,
+      "scenarioGenerationCounts": {
+        "collect_mushroom_01": 9,
+        "kill_torch_01": 9,
+        "slay_caveborn_bear_01": 9,
+        "slay_caveborn_lizard_01": 9,
+        "slay_caveborn_snake_01": 9,
+        "slay_caveborn_spider_01": 9,
+        "slay_caveborn_turtle_01": 9,
+        "slay_torch_boss_01": 9
+      },
+      "withinScenarioPairs": 288,
+      "completedEvents": 72,
+      "continuityVerification": "empty initial context; every later generation matches preceding generation summary; all 72 completions present (event writes may arrive late)",
+      "sourceLineMapping": [
+        {
+          "inputLine": 1,
+          "sourceLine": 1,
+          "requestId": "80e577e9ed9d422c99789ff993417cd4",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 2,
+          "sourceLine": 2,
+          "requestId": "80e577e9ed9d422c99789ff993417cd4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 3,
+          "sourceLine": 3,
+          "requestId": "80e577e9ed9d422c99789ff993417cd4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 4,
+          "sourceLine": 4,
+          "requestId": "3602236889d9421ca4f32f86938daddf",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 5,
+          "sourceLine": 5,
+          "requestId": "3602236889d9421ca4f32f86938daddf",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 6,
+          "sourceLine": 6,
+          "requestId": "3602236889d9421ca4f32f86938daddf",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 7,
+          "sourceLine": 7,
+          "requestId": "1b9b309f6a6549ecbf5da2c53e6f3094",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 8,
+          "sourceLine": 8,
+          "requestId": "1b9b309f6a6549ecbf5da2c53e6f3094",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 9,
+          "sourceLine": 9,
+          "requestId": "1b9b309f6a6549ecbf5da2c53e6f3094",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 10,
+          "sourceLine": 10,
+          "requestId": "557b1b3ab3eb4bc7a2a39b978af066bd",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 11,
+          "sourceLine": 11,
+          "requestId": "557b1b3ab3eb4bc7a2a39b978af066bd",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 12,
+          "sourceLine": 12,
+          "requestId": "557b1b3ab3eb4bc7a2a39b978af066bd",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 13,
+          "sourceLine": 13,
+          "requestId": "04f74ff206e741a696d1c333e2767495",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 14,
+          "sourceLine": 14,
+          "requestId": "04f74ff206e741a696d1c333e2767495",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 15,
+          "sourceLine": 15,
+          "requestId": "04f74ff206e741a696d1c333e2767495",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 16,
+          "sourceLine": 16,
+          "requestId": "a6351d5c51e24b1d8bb27fd9d9e9f8d7",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 17,
+          "sourceLine": 17,
+          "requestId": "a6351d5c51e24b1d8bb27fd9d9e9f8d7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 18,
+          "sourceLine": 18,
+          "requestId": "a6351d5c51e24b1d8bb27fd9d9e9f8d7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 19,
+          "sourceLine": 19,
+          "requestId": "f43d6c9077f24802acf73463bebd0b38",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 20,
+          "sourceLine": 20,
+          "requestId": "f43d6c9077f24802acf73463bebd0b38",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 21,
+          "sourceLine": 21,
+          "requestId": "f43d6c9077f24802acf73463bebd0b38",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 22,
+          "sourceLine": 22,
+          "requestId": "affaa0767b0d44e3b06a0cbbc012a0a7",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 23,
+          "sourceLine": 23,
+          "requestId": "affaa0767b0d44e3b06a0cbbc012a0a7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 24,
+          "sourceLine": 24,
+          "requestId": "affaa0767b0d44e3b06a0cbbc012a0a7",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 25,
+          "sourceLine": 25,
+          "requestId": "173a4cf0df3940308a7b0dfcfb5af031",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 26,
+          "sourceLine": 26,
+          "requestId": "173a4cf0df3940308a7b0dfcfb5af031",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 27,
+          "sourceLine": 27,
+          "requestId": "173a4cf0df3940308a7b0dfcfb5af031",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 28,
+          "sourceLine": 28,
+          "requestId": "4b3d503304a4449eb2ba12754a06d137",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 29,
+          "sourceLine": 29,
+          "requestId": "4b3d503304a4449eb2ba12754a06d137",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 30,
+          "sourceLine": 30,
+          "requestId": "4b3d503304a4449eb2ba12754a06d137",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 31,
+          "sourceLine": 31,
+          "requestId": "d1412980c1674b2db65cc26b2071e4ac",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 32,
+          "sourceLine": 32,
+          "requestId": "d1412980c1674b2db65cc26b2071e4ac",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 33,
+          "sourceLine": 33,
+          "requestId": "d1412980c1674b2db65cc26b2071e4ac",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 34,
+          "sourceLine": 34,
+          "requestId": "6add043b1e50464b8bafddede6e7f494",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 35,
+          "sourceLine": 35,
+          "requestId": "6add043b1e50464b8bafddede6e7f494",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 36,
+          "sourceLine": 36,
+          "requestId": "6add043b1e50464b8bafddede6e7f494",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 37,
+          "sourceLine": 37,
+          "requestId": "64c76cd6cf70458a9a015b97ca4aaafa",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 38,
+          "sourceLine": 38,
+          "requestId": "64c76cd6cf70458a9a015b97ca4aaafa",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 39,
+          "sourceLine": 39,
+          "requestId": "64c76cd6cf70458a9a015b97ca4aaafa",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 40,
+          "sourceLine": 40,
+          "requestId": "0dd930902d394a819209d2af37a528bb",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 41,
+          "sourceLine": 41,
+          "requestId": "0dd930902d394a819209d2af37a528bb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 42,
+          "sourceLine": 42,
+          "requestId": "0dd930902d394a819209d2af37a528bb",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 43,
+          "sourceLine": 43,
+          "requestId": "3b33a8736c794d4b8decc6b1b812df97",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 44,
+          "sourceLine": 44,
+          "requestId": "3b33a8736c794d4b8decc6b1b812df97",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 45,
+          "sourceLine": 45,
+          "requestId": "3b33a8736c794d4b8decc6b1b812df97",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 46,
+          "sourceLine": 46,
+          "requestId": "013b4262cf8e409fba2b919aca6c93ce",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 47,
+          "sourceLine": 47,
+          "requestId": "013b4262cf8e409fba2b919aca6c93ce",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 48,
+          "sourceLine": 48,
+          "requestId": "013b4262cf8e409fba2b919aca6c93ce",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 49,
+          "sourceLine": 49,
+          "requestId": "e5c2d84ebaff4b8c8ef62274f2b15881",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 50,
+          "sourceLine": 50,
+          "requestId": "e5c2d84ebaff4b8c8ef62274f2b15881",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 51,
+          "sourceLine": 51,
+          "requestId": "e5c2d84ebaff4b8c8ef62274f2b15881",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 52,
+          "sourceLine": 52,
+          "requestId": "adb5eb127226484e930b5ced2c8abacf",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 53,
+          "sourceLine": 53,
+          "requestId": "adb5eb127226484e930b5ced2c8abacf",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 54,
+          "sourceLine": 54,
+          "requestId": "adb5eb127226484e930b5ced2c8abacf",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 55,
+          "sourceLine": 55,
+          "requestId": "b480e7de81914453bace646c868219b4",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 56,
+          "sourceLine": 56,
+          "requestId": "b480e7de81914453bace646c868219b4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 57,
+          "sourceLine": 57,
+          "requestId": "b480e7de81914453bace646c868219b4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 58,
+          "sourceLine": 58,
+          "requestId": "d18c9b43bf3540e69efc801b3dc18d94",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 59,
+          "sourceLine": 59,
+          "requestId": "d18c9b43bf3540e69efc801b3dc18d94",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 60,
+          "sourceLine": 60,
+          "requestId": "d18c9b43bf3540e69efc801b3dc18d94",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 61,
+          "sourceLine": 61,
+          "requestId": "cfede3de33cb4491a677ff1eedd20d1f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 62,
+          "sourceLine": 62,
+          "requestId": "cfede3de33cb4491a677ff1eedd20d1f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 63,
+          "sourceLine": 63,
+          "requestId": "cfede3de33cb4491a677ff1eedd20d1f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 64,
+          "sourceLine": 64,
+          "requestId": "0d715a7d983e440f92367a8c7fe601ec",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 65,
+          "sourceLine": 65,
+          "requestId": "0d715a7d983e440f92367a8c7fe601ec",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 66,
+          "sourceLine": 66,
+          "requestId": "0d715a7d983e440f92367a8c7fe601ec",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 67,
+          "sourceLine": 67,
+          "requestId": "93c0c17cc3a340e8b3b81e37be73baff",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 68,
+          "sourceLine": 68,
+          "requestId": "93c0c17cc3a340e8b3b81e37be73baff",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 69,
+          "sourceLine": 69,
+          "requestId": "93c0c17cc3a340e8b3b81e37be73baff",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 70,
+          "sourceLine": 70,
+          "requestId": "ace3c6a0632f465e8bbc4d2053a0f95c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 71,
+          "sourceLine": 71,
+          "requestId": "ace3c6a0632f465e8bbc4d2053a0f95c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 72,
+          "sourceLine": 72,
+          "requestId": "ace3c6a0632f465e8bbc4d2053a0f95c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 73,
+          "sourceLine": 73,
+          "requestId": "8b36bf1ee4d74d7fbb5dc5aef543182c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 74,
+          "sourceLine": 74,
+          "requestId": "8b36bf1ee4d74d7fbb5dc5aef543182c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 75,
+          "sourceLine": 75,
+          "requestId": "8b36bf1ee4d74d7fbb5dc5aef543182c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 76,
+          "sourceLine": 76,
+          "requestId": "5a05a0a508104f1092bd2d90a9b5aa7c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 77,
+          "sourceLine": 77,
+          "requestId": "5a05a0a508104f1092bd2d90a9b5aa7c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 78,
+          "sourceLine": 78,
+          "requestId": "5a05a0a508104f1092bd2d90a9b5aa7c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 79,
+          "sourceLine": 79,
+          "requestId": "73185b4e3247444c82f6593bb261f71f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 80,
+          "sourceLine": 80,
+          "requestId": "73185b4e3247444c82f6593bb261f71f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 81,
+          "sourceLine": 81,
+          "requestId": "73185b4e3247444c82f6593bb261f71f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 82,
+          "sourceLine": 82,
+          "requestId": "888c676e31104fcab654039d03aa229f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 83,
+          "sourceLine": 83,
+          "requestId": "888c676e31104fcab654039d03aa229f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 84,
+          "sourceLine": 84,
+          "requestId": "888c676e31104fcab654039d03aa229f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 85,
+          "sourceLine": 85,
+          "requestId": "2c8b2d4a377c4e36afd9d15c72393092",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 86,
+          "sourceLine": 86,
+          "requestId": "2c8b2d4a377c4e36afd9d15c72393092",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 87,
+          "sourceLine": 87,
+          "requestId": "2c8b2d4a377c4e36afd9d15c72393092",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 88,
+          "sourceLine": 88,
+          "requestId": "03618e0d1bac4dafad18ecf2f8189d62",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 89,
+          "sourceLine": 89,
+          "requestId": "03618e0d1bac4dafad18ecf2f8189d62",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 90,
+          "sourceLine": 90,
+          "requestId": "03618e0d1bac4dafad18ecf2f8189d62",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 91,
+          "sourceLine": 91,
+          "requestId": "39da90f2360e42cc8adc3262777c8a37",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 92,
+          "sourceLine": 92,
+          "requestId": "39da90f2360e42cc8adc3262777c8a37",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 93,
+          "sourceLine": 93,
+          "requestId": "39da90f2360e42cc8adc3262777c8a37",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 94,
+          "sourceLine": 94,
+          "requestId": "c759152035c94eb6a11dcfd0d9f2277a",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 95,
+          "sourceLine": 95,
+          "requestId": "c759152035c94eb6a11dcfd0d9f2277a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 96,
+          "sourceLine": 96,
+          "requestId": "c759152035c94eb6a11dcfd0d9f2277a",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 97,
+          "sourceLine": 97,
+          "requestId": "09b2d175be144123b62de89e9be75f82",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 98,
+          "sourceLine": 98,
+          "requestId": "09b2d175be144123b62de89e9be75f82",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 99,
+          "sourceLine": 99,
+          "requestId": "09b2d175be144123b62de89e9be75f82",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 100,
+          "sourceLine": 100,
+          "requestId": "e4aa1068cfd74e11a38ee9e2befd7fb5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 101,
+          "sourceLine": 101,
+          "requestId": "e4aa1068cfd74e11a38ee9e2befd7fb5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 102,
+          "sourceLine": 102,
+          "requestId": "e4aa1068cfd74e11a38ee9e2befd7fb5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 103,
+          "sourceLine": 103,
+          "requestId": "8f517310b5fc4d4b9385ac3bedcd1d11",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 104,
+          "sourceLine": 104,
+          "requestId": "8f517310b5fc4d4b9385ac3bedcd1d11",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 105,
+          "sourceLine": 105,
+          "requestId": "8f517310b5fc4d4b9385ac3bedcd1d11",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 106,
+          "sourceLine": 106,
+          "requestId": "06032781be4e46db806decec541a467f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 107,
+          "sourceLine": 107,
+          "requestId": "06032781be4e46db806decec541a467f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 108,
+          "sourceLine": 108,
+          "requestId": "06032781be4e46db806decec541a467f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 109,
+          "sourceLine": 109,
+          "requestId": "9804422119b742c88c392c84568d766c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 110,
+          "sourceLine": 110,
+          "requestId": "9804422119b742c88c392c84568d766c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 111,
+          "sourceLine": 111,
+          "requestId": "9804422119b742c88c392c84568d766c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 112,
+          "sourceLine": 112,
+          "requestId": "d396dd11b68a4a26bb4399c1be6b7a79",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 113,
+          "sourceLine": 113,
+          "requestId": "d396dd11b68a4a26bb4399c1be6b7a79",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 114,
+          "sourceLine": 114,
+          "requestId": "d396dd11b68a4a26bb4399c1be6b7a79",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 115,
+          "sourceLine": 115,
+          "requestId": "490e664abb824de1bf876ebeba978107",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 116,
+          "sourceLine": 116,
+          "requestId": "490e664abb824de1bf876ebeba978107",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 117,
+          "sourceLine": 117,
+          "requestId": "490e664abb824de1bf876ebeba978107",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 118,
+          "sourceLine": 118,
+          "requestId": "36150134a70e4174a53840ab32aa88a6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 119,
+          "sourceLine": 119,
+          "requestId": "36150134a70e4174a53840ab32aa88a6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 120,
+          "sourceLine": 120,
+          "requestId": "36150134a70e4174a53840ab32aa88a6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 121,
+          "sourceLine": 121,
+          "requestId": "022b89b7a4524c829fa78655a98388f6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 122,
+          "sourceLine": 122,
+          "requestId": "022b89b7a4524c829fa78655a98388f6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 123,
+          "sourceLine": 123,
+          "requestId": "022b89b7a4524c829fa78655a98388f6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 124,
+          "sourceLine": 124,
+          "requestId": "6e112fdddf39412791e0058bf8777ca8",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 125,
+          "sourceLine": 125,
+          "requestId": "6e112fdddf39412791e0058bf8777ca8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 126,
+          "sourceLine": 126,
+          "requestId": "6e112fdddf39412791e0058bf8777ca8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 127,
+          "sourceLine": 127,
+          "requestId": "f5aed5c1969243a29ba5cc37705ee144",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 128,
+          "sourceLine": 128,
+          "requestId": "f5aed5c1969243a29ba5cc37705ee144",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 129,
+          "sourceLine": 129,
+          "requestId": "f5aed5c1969243a29ba5cc37705ee144",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 130,
+          "sourceLine": 130,
+          "requestId": "2da5a8ee2d11492b9ea71f7ab09111a9",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 131,
+          "sourceLine": 131,
+          "requestId": "2da5a8ee2d11492b9ea71f7ab09111a9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 132,
+          "sourceLine": 132,
+          "requestId": "2da5a8ee2d11492b9ea71f7ab09111a9",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 133,
+          "sourceLine": 133,
+          "requestId": "c0887b7b91714b6eb7d4c962a0a9892c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 134,
+          "sourceLine": 134,
+          "requestId": "c0887b7b91714b6eb7d4c962a0a9892c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 135,
+          "sourceLine": 135,
+          "requestId": "c0887b7b91714b6eb7d4c962a0a9892c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 136,
+          "sourceLine": 136,
+          "requestId": "eab8d410388347b9ae482096d780217c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 137,
+          "sourceLine": 137,
+          "requestId": "eab8d410388347b9ae482096d780217c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 138,
+          "sourceLine": 138,
+          "requestId": "eab8d410388347b9ae482096d780217c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 139,
+          "sourceLine": 139,
+          "requestId": "7b2f1ecee5534797aa281f35634414a6",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 140,
+          "sourceLine": 140,
+          "requestId": "7b2f1ecee5534797aa281f35634414a6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 141,
+          "sourceLine": 141,
+          "requestId": "7b2f1ecee5534797aa281f35634414a6",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 142,
+          "sourceLine": 142,
+          "requestId": "f4aa515b058344228f866be4c215e978",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 143,
+          "sourceLine": 143,
+          "requestId": "f4aa515b058344228f866be4c215e978",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 144,
+          "sourceLine": 144,
+          "requestId": "f4aa515b058344228f866be4c215e978",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 145,
+          "sourceLine": 145,
+          "requestId": "105d602caec847a986bdced097981211",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 146,
+          "sourceLine": 146,
+          "requestId": "105d602caec847a986bdced097981211",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 147,
+          "sourceLine": 147,
+          "requestId": "105d602caec847a986bdced097981211",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 148,
+          "sourceLine": 148,
+          "requestId": "c56443e8f5e84852bf709b1243f2c29d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 149,
+          "sourceLine": 149,
+          "requestId": "c56443e8f5e84852bf709b1243f2c29d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 150,
+          "sourceLine": 150,
+          "requestId": "c56443e8f5e84852bf709b1243f2c29d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 151,
+          "sourceLine": 151,
+          "requestId": "ed0e9bc55e714427bcec6a7d9ae5adac",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 152,
+          "sourceLine": 152,
+          "requestId": "ed0e9bc55e714427bcec6a7d9ae5adac",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 153,
+          "sourceLine": 153,
+          "requestId": "ed0e9bc55e714427bcec6a7d9ae5adac",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 154,
+          "sourceLine": 154,
+          "requestId": "1df303368b344066ad3812563f3a8945",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 155,
+          "sourceLine": 155,
+          "requestId": "1df303368b344066ad3812563f3a8945",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 156,
+          "sourceLine": 156,
+          "requestId": "1df303368b344066ad3812563f3a8945",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 157,
+          "sourceLine": 157,
+          "requestId": "ab9f75b533b34f2bb4eb2f590334fe11",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 158,
+          "sourceLine": 158,
+          "requestId": "ab9f75b533b34f2bb4eb2f590334fe11",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 159,
+          "sourceLine": 159,
+          "requestId": "ab9f75b533b34f2bb4eb2f590334fe11",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 160,
+          "sourceLine": 160,
+          "requestId": "2f54002750c8466da8901c6fd7ba699e",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 161,
+          "sourceLine": 161,
+          "requestId": "2f54002750c8466da8901c6fd7ba699e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 162,
+          "sourceLine": 162,
+          "requestId": "2f54002750c8466da8901c6fd7ba699e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 163,
+          "sourceLine": 163,
+          "requestId": "355b28e559e04e45a231dde736928994",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 164,
+          "sourceLine": 164,
+          "requestId": "355b28e559e04e45a231dde736928994",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 165,
+          "sourceLine": 165,
+          "requestId": "355b28e559e04e45a231dde736928994",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 166,
+          "sourceLine": 166,
+          "requestId": "23ef64d11f9c432d9af7e72e8a2561be",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 167,
+          "sourceLine": 167,
+          "requestId": "23ef64d11f9c432d9af7e72e8a2561be",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 168,
+          "sourceLine": 168,
+          "requestId": "23ef64d11f9c432d9af7e72e8a2561be",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 169,
+          "sourceLine": 169,
+          "requestId": "8c65d0db928f49e39680b7d4907d7d7c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 170,
+          "sourceLine": 170,
+          "requestId": "8c65d0db928f49e39680b7d4907d7d7c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 171,
+          "sourceLine": 171,
+          "requestId": "8c65d0db928f49e39680b7d4907d7d7c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 172,
+          "sourceLine": 172,
+          "requestId": "7374fff2502b41718391826092b10cf5",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 173,
+          "sourceLine": 173,
+          "requestId": "7374fff2502b41718391826092b10cf5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 174,
+          "sourceLine": 174,
+          "requestId": "7374fff2502b41718391826092b10cf5",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 175,
+          "sourceLine": 175,
+          "requestId": "23897e25c73a44cfb1ae8fa16667d359",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 176,
+          "sourceLine": 176,
+          "requestId": "23897e25c73a44cfb1ae8fa16667d359",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 177,
+          "sourceLine": 177,
+          "requestId": "23897e25c73a44cfb1ae8fa16667d359",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 178,
+          "sourceLine": 178,
+          "requestId": "09cc7177db6543f5ac0bdaa76b4cb483",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 179,
+          "sourceLine": 179,
+          "requestId": "09cc7177db6543f5ac0bdaa76b4cb483",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 180,
+          "sourceLine": 180,
+          "requestId": "09cc7177db6543f5ac0bdaa76b4cb483",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 181,
+          "sourceLine": 181,
+          "requestId": "9a2099d6327b41f4b93b21307841ac5d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 182,
+          "sourceLine": 182,
+          "requestId": "9a2099d6327b41f4b93b21307841ac5d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 183,
+          "sourceLine": 183,
+          "requestId": "9a2099d6327b41f4b93b21307841ac5d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 184,
+          "sourceLine": 184,
+          "requestId": "4824e38cfa6247b182034546855af092",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 185,
+          "sourceLine": 185,
+          "requestId": "4824e38cfa6247b182034546855af092",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 186,
+          "sourceLine": 186,
+          "requestId": "4824e38cfa6247b182034546855af092",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 187,
+          "sourceLine": 187,
+          "requestId": "aa62b9d968d048019713783fac04b704",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 188,
+          "sourceLine": 188,
+          "requestId": "aa62b9d968d048019713783fac04b704",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 189,
+          "sourceLine": 189,
+          "requestId": "aa62b9d968d048019713783fac04b704",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 190,
+          "sourceLine": 190,
+          "requestId": "cdae7807eae74ec8be24a2b341f69187",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 191,
+          "sourceLine": 191,
+          "requestId": "cdae7807eae74ec8be24a2b341f69187",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 192,
+          "sourceLine": 192,
+          "requestId": "cdae7807eae74ec8be24a2b341f69187",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 193,
+          "sourceLine": 193,
+          "requestId": "bace9cce89e44cdf826385d9e03a594f",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 194,
+          "sourceLine": 194,
+          "requestId": "bace9cce89e44cdf826385d9e03a594f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 195,
+          "sourceLine": 195,
+          "requestId": "bace9cce89e44cdf826385d9e03a594f",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 196,
+          "sourceLine": 196,
+          "requestId": "a38a554027134985b995e0e6839ae92c",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 197,
+          "sourceLine": 197,
+          "requestId": "a38a554027134985b995e0e6839ae92c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 198,
+          "sourceLine": 198,
+          "requestId": "a38a554027134985b995e0e6839ae92c",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 199,
+          "sourceLine": 199,
+          "requestId": "47325d5ec8b84684a69a85308086af7e",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 200,
+          "sourceLine": 200,
+          "requestId": "47325d5ec8b84684a69a85308086af7e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 201,
+          "sourceLine": 201,
+          "requestId": "47325d5ec8b84684a69a85308086af7e",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 202,
+          "sourceLine": 202,
+          "requestId": "e065997db8a54f97ab9ff0526991ca49",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 203,
+          "sourceLine": 203,
+          "requestId": "e065997db8a54f97ab9ff0526991ca49",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 204,
+          "sourceLine": 204,
+          "requestId": "e065997db8a54f97ab9ff0526991ca49",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 205,
+          "sourceLine": 205,
+          "requestId": "7adf5017ff3c4fe6b358009275bef2c4",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 206,
+          "sourceLine": 206,
+          "requestId": "7adf5017ff3c4fe6b358009275bef2c4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 207,
+          "sourceLine": 207,
+          "requestId": "7adf5017ff3c4fe6b358009275bef2c4",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 208,
+          "sourceLine": 208,
+          "requestId": "82f19b801e484811b6079f4128aaff3d",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 209,
+          "sourceLine": 209,
+          "requestId": "82f19b801e484811b6079f4128aaff3d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 210,
+          "sourceLine": 210,
+          "requestId": "82f19b801e484811b6079f4128aaff3d",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 211,
+          "sourceLine": 211,
+          "requestId": "99f9d9acabc641268d52fbe5ace3e0a8",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 212,
+          "sourceLine": 212,
+          "requestId": "99f9d9acabc641268d52fbe5ace3e0a8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 213,
+          "sourceLine": 213,
+          "requestId": "99f9d9acabc641268d52fbe5ace3e0a8",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 214,
+          "sourceLine": 214,
+          "requestId": "ed4bd8dfb82741eab63ec51ac42ddc47",
+          "recordType": "generation"
+        },
+        {
+          "inputLine": 215,
+          "sourceLine": 215,
+          "requestId": "ed4bd8dfb82741eab63ec51ac42ddc47",
+          "recordType": "gameplay_event"
+        },
+        {
+          "inputLine": 216,
+          "sourceLine": 216,
+          "requestId": "ed4bd8dfb82741eab63ec51ac42ddc47",
+          "recordType": "gameplay_event"
+        }
+      ],
+      "lexicalDirectory": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/lexical",
+      "semanticDirectory": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/semantic"
+    }
+  ],
+  "selection": "Fixed chronological boundaries; no similarity-score selection",
+  "fields": [
+    "introduction",
+    "completionText"
+  ],
+  "sampleSize": 40,
+  "sampleSalt": "20260820",
+  "primaryAggregation": "Equal arithmetic mean of eight scenario pair means"
+}

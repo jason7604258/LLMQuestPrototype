@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4e9c1b82d44e1488edc27696ac1142, type: 3}
+  m_Name: CollectMushrooms
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioDefinition
+  scenarioId: collect_mushroom_01
+  scenarioType: 1
+  targetId: item_mushroom
+  targetPrefab: {fileID: 8884571189260426284, guid: e5a38832f33384690b6a98b6c0921cfe, type: 3}
+  targetSceneName: Arena
+  requiredAmount: 3
+  experienceReward: 10
+  goldReward: 8
+  targetVisualDescription: Small forest mushrooms with pale caps and faintly glowing
+    spores.
+  targetAbilityDescription: They are stationary collectible materials and have no
+    combat abilities.
+  mapDescription: An abandoned outdoor arena surrounded by mountains, with mushrooms
+    growing among its grassy ruins.
