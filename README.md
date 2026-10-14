@@ -1,10 +1,8 @@
 # LLM Quest Prototype: source code and supporting records
 
-This repository is a curated source snapshot prepared for GitHub from the
-dissertation code submission on 14 October 2026. It contains the Unity project
-source, the local Python narrative service, software tests, and the recorded data
-used for the four-model comparison. The dissertation PDF is submitted separately.
-The snapshot also includes the later backend health response update and its test.
+This repository contains the Unity project source, the local Python narrative
+service, software tests, and recorded data for a four-model comparison. It is a
+source and research-record archive, not a complete playable game build.
 
 ## Start here
 
@@ -33,13 +31,12 @@ The snapshot also includes the later backend health response update and its test
 | `ProjectSettings/` | Unity version, input, build and project settings |
 | `Backend/app.py` | Local narrative service and deterministic fallback |
 | `Backend/test_*.py` | Backend and analysis tests |
-| `Backend/logs/` | Four preserved source logs used in the dissertation |
+| `Backend/logs/` | Four saved source logs for the model comparison |
 | `Backend/reports/` | Selected inputs, similarity scores and saved reports |
-| `Backend/historical_analysis_sources/` | Original versions of analysis scripts that received comments for submission |
 | `Tools/` | A portable check and recalculation of the saved comparison |
-| `supporting_analysis/` | Dated test record, price basis and comparison tables referenced in the dissertation |
+| `supporting_analysis/` | Test records, price basis and comparison tables |
 | `supporting_examples/` | Recorded input/output examples and explicitly reconstructed prompts |
-| `Docs/` | Development notes, attribution and packaging information |
+| `Docs/` | Development notes, asset notices and analysis guidance |
 
 The development notes describe different stages of the project. They are not a
 claim that every earlier setting or planned feature is present in the final game.
@@ -173,8 +170,8 @@ in its source log. The three files `analysis_manifest.json`,
 
 ## Recalculate lexical and semantic scores
 
-The original analysis programs are also included. Use fresh output directories
-to avoid overwriting the submitted evidence. For the original Sol selection:
+The analysis programs are also included. Use fresh output directories to avoid
+overwriting the saved evidence. For the Sol selection:
 
 ```bash
 python Backend/analyze_lexical_similarity.py --output-dir Reanalysis/sol/lexical
@@ -192,32 +189,11 @@ it does not generate new quest narratives. The pinned model files and Python
 environment are not bundled in this archive. Hardware and package differences
 can affect numerical reproduction, so record the environment used for a new run.
 
-The original `run_model_analysis.py` and `analyze_model_comparison.py` retain
-their strict historical environment checks. They are not portable launchers:
-their recorded paths refer to the original analysis location, now represented
-by placeholders in the archive. Use the portable helper for the saved-score
-comparison. A complete new embedding run requires setting up and checking the
-recorded environment; it is separate from the saved-score check.
+The historical `run_model_analysis.py` and `analyze_model_comparison.py` retain
+strict environment checks and are not portable launchers. Use the portable
+helper for the saved-score comparison. A complete new embedding run requires
+setting up and checking the recorded environment; it is separate from the
+saved-score check.
 
 `Docs/ANALYSIS_GUIDE.md` explains the preserved analysis code and gives the
 input paths and hashes for recalculating the other three datasets.
-
-## What changed for submission
-
-Existing comment style is preserved: short English comments describing purpose,
-conditions and boundaries. Comments were added to analysis/test code and a few
-misleading Unity comments were corrected. Original analysis sources whose
-hashes are recorded were either kept unchanged or retained separately. The
-original gameplay and analysis calculations were not changed.
-
-The four raw logs and numerical CSV evidence are unchanged. Some report paths
-contained a local computer account name. In the submitted copies only, these
-paths use `<PROJECT_ROOT>` or `<MODEL_CACHE>`. `Docs/PACKAGING_CHANGES.json`
-records both the historical and packaged hashes of each affected file; old
-hashes inside historical reports still refer to their original files.
-
-`SUBMISSION_MANIFEST.json` lists the files and hashes in this archive. Local
-credentials, virtual environments, Unity caches, editor history, third-party
-asset source packs and dissertation editing files are excluded. See
-`Docs/THIRD_PARTY_NOTICES.md` for external software and assets, and
-`Docs/SUBMISSION_VERIFICATION.md` for checks performed on this submission copy.
