@@ -95,10 +95,17 @@ New runtime records go to `Backend/logs/narrative_runs.jsonl`. This file is
 separate from the four saved study logs. `NARRATIVE_LOG_ENABLED=0` disables new
 logging; `NARRATIVE_LOG_PATH` selects another file.
 
-## Open and play the Unity project
+## Open the Unity project after restoring assets
 
-1. Restore the omitted dependencies using the asset instructions above. Preserve
-   the original paths and `.meta` files so Unity can resolve object references.
+A fresh clone of this repository cannot play the complete game as-is. The
+following steps are for someone who already has lawful access to the matching
+omitted assets and wants to try restoring a local working copy. A fresh Unity
+build from this stripped repository has not been verified, even after asset
+restoration. The original development project was not changed by this export.
+
+1. Restore the omitted dependencies following `Docs/THIRD_PARTY_NOTICES.md` and
+   `Docs/OMITTED_ASSETS.csv`. Preserve the original paths and `.meta` files so
+   Unity can resolve object references.
 2. Use Unity Hub to open this project folder with **Unity 6000.5.0f1**, the version
    in `ProjectSettings/ProjectVersion.txt`. Unity restores package dependencies
    from `Packages/manifest.json` and `Packages/packages-lock.json`.
