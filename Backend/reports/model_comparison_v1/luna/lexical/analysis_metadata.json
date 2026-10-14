@@ -1,0 +1,61 @@
+{
+  "metricVersion": "lexical-field-v3-word",
+  "analyzerSha256": "9f88982a0e2a2aa2a46c6bdf8c9b082b9efef071659abad2c8f06eb22cdfd53c",
+  "normalizationDependencySha256": "3cbb4ec73d430fb42c23604890ad56468fcf3511699e2e7d7f74f55e78f2e843",
+  "inputPath": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/input_frozen72.jsonl",
+  "requestedMaxPhysicalLines": 216,
+  "linesRead": 216,
+  "inputPrefixSha256": "5f05b7b1e96ab17de58b89cd9bcad3f23f62eba9b8a1571dcd60d2b79940c568",
+  "expectedInputPrefixSha256": "5f05b7b1e96ab17de58b89cd9bcad3f23f62eba9b8a1571dcd60d2b79940c568",
+  "inputPrefixHashVerified": true,
+  "parsedJsonObjectRecords": 216,
+  "malformedRecords": 0,
+  "loadErrors": [],
+  "generationRecords": 72,
+  "scenarioGenerationCounts": {
+    "collect_mushroom_01": 9,
+    "kill_torch_01": 9,
+    "slay_caveborn_bear_01": 9,
+    "slay_caveborn_lizard_01": 9,
+    "slay_caveborn_snake_01": 9,
+    "slay_caveborn_spider_01": 9,
+    "slay_caveborn_turtle_01": 9,
+    "slay_torch_boss_01": 9
+  },
+  "withinScenarioPairs": 288,
+  "scenarioPairCounts": {
+    "collect_mushroom_01": 36,
+    "kill_torch_01": 36,
+    "slay_caveborn_bear_01": 36,
+    "slay_caveborn_lizard_01": 36,
+    "slay_caveborn_snake_01": 36,
+    "slay_caveborn_spider_01": 36,
+    "slay_caveborn_turtle_01": 36,
+    "slay_torch_boss_01": 36
+  },
+  "fieldComparisons": 576,
+  "fields": [
+    "introduction",
+    "completionText"
+  ],
+  "normalization": "Unicode NFKC + casefold + replace runs of non-word characters and underscores with spaces + whitespace collapse",
+  "tokenization": "Whitespace split after normalization; numbers retained; no stopword removal, stemming, or lemmatization",
+  "p90Method": "linear interpolation at position (n - 1) * 0.90",
+  "primaryMetric": "tokenLcsF1",
+  "supplementaryStrictPhraseMetric": "word3gramJaccard",
+  "descriptiveVocabularyMetric": "word1gramJaccard",
+  "sampleMethod": "proportional_stratified_sha256_rank",
+  "sampleSalt": "20260820",
+  "sampleSize": 40,
+  "sampleAllocation": {
+    "collect_mushroom_01": 5,
+    "kill_torch_01": 5,
+    "slay_caveborn_bear_01": 5,
+    "slay_caveborn_lizard_01": 5,
+    "slay_caveborn_snake_01": 5,
+    "slay_caveborn_spider_01": 5,
+    "slay_caveborn_turtle_01": 5,
+    "slay_torch_boss_01": 5
+  },
+  "topK": 10
+}

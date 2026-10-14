@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4e9c1b82d44e1488edc27696ac1142, type: 3}
+  m_Name: SlayTorchBoss
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioDefinition
+  scenarioId: slay_torch_boss_01
+  scenarioType: 2
+  targetId: boss_torch_warden
+  targetPrefab: {fileID: 2764016068889636438, guid: 507879259665340cf93ac4f29698352e, type: 3}
+  targetSceneName: Arena
+  requiredAmount: 1
+  experienceReward: 30
+  goldReward: 25
+  targetVisualDescription: A larger humanoid warrior carrying a burning torch and
+    wearing heavy arena armour.
+  targetAbilityDescription: It has increased health, chases the player, and attacks
+    at close range for two damage. It cannot fly and has no ranged attack.
+  mapDescription: An abandoned outdoor arena surrounded by mountains, guarded by
+    a lone torch warden.

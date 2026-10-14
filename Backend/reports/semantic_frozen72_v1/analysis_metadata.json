@@ -1,0 +1,121 @@
+{
+  "semanticMetricVersion": "semantic-field-v1-mpnet-cosine",
+  "analyzerSha256": "168c6ae7596bb6ad41c3d6f849a68274b5f02e34278fe301d81019025ef7e4e3",
+  "lexicalAnalyzerSha256": "9f88982a0e2a2aa2a46c6bdf8c9b082b9efef071659abad2c8f06eb22cdfd53c",
+  "inputPath": "<PROJECT_ROOT>/Backend/logs/demo_narrative_runs_2026-08-20_take01.jsonl",
+  "linesRead": 206,
+  "parsedJsonObjectRecords": 206,
+  "malformedRecords": 0,
+  "loadErrors": [],
+  "inputPrefixSha256": "e24f11761aa490997e4ef9d39a41ffc9da1888940510748237be369329e734ad",
+  "expectedInputPrefixSha256": "e24f11761aa490997e4ef9d39a41ffc9da1888940510748237be369329e734ad",
+  "inputPrefixHashVerified": true,
+  "generationRecords": 72,
+  "scenarioCount": 8,
+  "scenarioGenerationCounts": {
+    "collect_mushroom_01": 8,
+    "kill_torch_01": 9,
+    "slay_caveborn_bear_01": 10,
+    "slay_caveborn_lizard_01": 10,
+    "slay_caveborn_snake_01": 10,
+    "slay_caveborn_spider_01": 7,
+    "slay_caveborn_turtle_01": 11,
+    "slay_torch_boss_01": 7
+  },
+  "withinScenarioPairs": 296,
+  "fieldComparisons": 592,
+  "fields": [
+    "introduction",
+    "completionText"
+  ],
+  "lexicalPairsPath": "<PROJECT_ROOT>/Backend/reports/lexical_frozen72_v3/within_scenario_lexical_pairs.csv",
+  "lexicalPairsSha256": "79d5cfc9a95490de12e66087499d1f9e055e31c84a8863c0e702358906d29d7a",
+  "lexicalAuditPath": "<PROJECT_ROOT>/Backend/reports/lexical_frozen72_v3/hash_ranked_audit_sample_40.csv",
+  "lexicalAuditSha256": "1dc5472400c157bcb6bb6f0374c6496c8d928809d14780ebf9878d5b3a2efc3d",
+  "auditPairs": 40,
+  "modelId": "sentence-transformers/all-mpnet-base-v2",
+  "modelRevision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "modelSnapshotPath": "<MODEL_CACHE>/models--sentence-transformers--all-mpnet-base-v2/snapshots/e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "modelSnapshotSha256": "8507ecba2fa3445ced24fa94dddd7340ecab33991224f00a41d4016248c9cb47",
+  "modelSnapshotFiles": [
+    {
+      "relativePath": "1_Pooling/config.json",
+      "bytes": 190,
+      "sha256": "a37f83ada23e7887be6b88f4998927dbeac0038af301553c7cd5461413bf1a56"
+    },
+    {
+      "relativePath": "README.md",
+      "bytes": 11612,
+      "sha256": "89a1a9c3290fe58e76c939b578c48a14331dc7bfcaaf5a53102adb183da6f96a"
+    },
+    {
+      "relativePath": "config.json",
+      "bytes": 571,
+      "sha256": "d46a3e04ded82bba22528424480697d394eeda6a27484e08c5bb2bdf5906cfa0"
+    },
+    {
+      "relativePath": "config_sentence_transformers.json",
+      "bytes": 116,
+      "sha256": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3"
+    },
+    {
+      "relativePath": "model.safetensors",
+      "bytes": 437971872,
+      "sha256": "78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658"
+    },
+    {
+      "relativePath": "modules.json",
+      "bytes": 349,
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "relativePath": "sentence_bert_config.json",
+      "bytes": 53,
+      "sha256": "cabfacded9272091a06ff595a46ef027a76ddf4ac9e77d0fcf11c605748f1667"
+    },
+    {
+      "relativePath": "special_tokens_map.json",
+      "bytes": 239,
+      "sha256": "9ef40e9c160511bf3f46ceb71f1471dafa1e9473d5120bb816c36b2efa75f8ba"
+    },
+    {
+      "relativePath": "tokenizer.json",
+      "bytes": 466021,
+      "sha256": "b8be2c30ba5dd723a6d5ee26d013da103d5408d92ddcb23747622f9e48f1d842"
+    },
+    {
+      "relativePath": "tokenizer_config.json",
+      "bytes": 363,
+      "sha256": "67f2ff7e223518e729869bb3a70f0caf8368fe549383fc11cfe2dfb42fffc268"
+    },
+    {
+      "relativePath": "vocab.txt",
+      "bytes": 231536,
+      "sha256": "dbd90cb94e2247bd4d4ccaecbf616d2290e66691d7d5e5bb81f063c2d0649ada"
+    }
+  ],
+  "embeddingDimension": 768,
+  "pooling": "model-defined mean pooling followed by L2 normalization",
+  "modelMaxSequenceLength": 384,
+  "maximumObservedWordpieces": 59,
+  "truncatedTextCount": 0,
+  "uniqueEmbeddedTexts": 144,
+  "semanticPreprocessing": "collapse whitespace only; preserve case, punctuation, stopwords, and word forms",
+  "normalizeEmbeddings": true,
+  "cosineImplementation": "dot product of L2-normalized float32 embeddings",
+  "device": "cpu",
+  "dtype": "float32",
+  "batchSize": 32,
+  "deterministicAlgorithms": true,
+  "pythonVersion": "3.11.2",
+  "sentenceTransformersVersion": "6.0.0",
+  "transformersVersion": "5.16.1",
+  "torchVersion": "2.13.0",
+  "numpyVersion": "2.4.6",
+  "tokenizersVersion": "0.23.1",
+  "huggingfaceHubVersion": "1.29.0",
+  "offlineModelLoad": true,
+  "topK": 10,
+  "p90Method": "linear interpolation at position (n - 1) * 0.90",
+  "correlationPValuesReported": false
+}

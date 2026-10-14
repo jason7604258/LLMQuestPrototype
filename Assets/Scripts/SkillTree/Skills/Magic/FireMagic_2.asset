@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c6bf689496a3417e83bdfcd5be7e02c, type: 3}
+  m_Name: FireMagic_2
+  m_EditorClassIdentifier: Assembly-CSharp::SkillsSO
+  skillName: Fire Magic II
+  maxLevel: 5
+  pointCost: 1
+  skillIcon: {fileID: 6734237056663082788, guid: fc925d4e71fc94945b82a491ac23aa18, type: 3}
+  effectType: 0
+  effectAmount: 0

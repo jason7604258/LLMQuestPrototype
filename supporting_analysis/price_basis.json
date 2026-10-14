@@ -1,0 +1,15 @@
+{
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "accessed": "2026-09-10",
+  "currency": "USD",
+  "basis": "Retrospective common-tariff estimate: Standard short-context text tokens, per million tokens; not a historical invoice",
+  "rates": {
+    "Sol": {"input":4,"cachedInput":0.4,"cacheWrite":5,"output":20},
+    "Terra": {"input":2,"cachedInput":0.2,"cacheWrite":2.5,"output":12},
+    "Luna": {"input":0.2,"cachedInput":0.02,"cacheWrite":0.25,"output":1.2},
+    "Astra": {"input":10,"cachedInput":1,"cacheWrite":12.5,"output":50}
+  },
+  "selectedOutputsPerModel": 72,
+  "cachedInputAndCacheWriteTokens": "Zero in all selected records",
+  "scope": "Selected successful generated outputs only; excludes post-boundary records and failed attempts with unavailable usage. No inference about account discounts, tax, processing tiers or full project billing."
+}

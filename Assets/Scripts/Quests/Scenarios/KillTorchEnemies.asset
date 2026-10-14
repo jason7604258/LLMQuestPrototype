@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4e9c1b82d44e1488edc27696ac1142, type: 3}
+  m_Name: KillTorchEnemies
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioDefinition
+  scenarioId: kill_torch_01
+  scenarioType: 0
+  targetId: enemy_torch
+  targetPrefab: {fileID: 7885793098694498581, guid: d245b731829d54184a90b19291e46065, type: 3}
+  targetSceneName: Arena
+  requiredAmount: 5
+  experienceReward: 15
+  goldReward: 10
+  targetVisualDescription: A humanoid warrior carrying a burning torch.
+  targetAbilityDescription: It chases the player and attacks at close range. It cannot
+    fly, has no ranged attack, and does not use ice magic.
+  mapDescription: An abandoned outdoor arena surrounded by mountains.

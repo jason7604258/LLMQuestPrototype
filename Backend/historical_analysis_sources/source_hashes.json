@@ -1,0 +1,41 @@
+{
+  "purpose": "Original Python sources retained before comment-only submission documentation. Historical reports are unchanged.",
+  "files": {
+    "run_model_analysis.py": {
+      "sha256": "59cbed0a9ebf11098edba19e1a4cebb7f97448a720782a6d6ecd6106fb4d1ff4",
+      "commentedSha256": "d0442b5bb9de17888cbf2eda6757dcbe96897fa4375308d197bb82a14888c722",
+      "addedCommentLines": 9,
+      "astUnchanged": true
+    },
+    "analyze_model_comparison.py": {
+      "sha256": "3451072fc34bb22526dd9225e530efb089b9d14c05cda89ddf3ba6237849bc97",
+      "commentedSha256": "99d83221f7853378db77fe1ce2326acb9c0868be5502d4098a5c830a6c080ee9",
+      "addedCommentLines": 10,
+      "astUnchanged": true
+    },
+    "analyze_combined_findings.py": {
+      "sha256": "2a6e41a12b4889097116aa46b118112e8e6bd914204a6754faee1635787784e7",
+      "commentedSha256": "4e99a1863bb43ba7a2a53746f14dd9bcd7412fb9b005da122d7c3d06fc433650",
+      "addedCommentLines": 24,
+      "astUnchanged": true
+    },
+    "test_run_model_analysis.py": {
+      "sha256": "60a3cf5d276222d091d27b0b4c28494e456aa1423f634a0fd4229b995f31d511",
+      "commentedSha256": "0b398cdb63aabc19f33116d7db314feb696c34e5b92504dc996faa482ba98793",
+      "addedCommentLines": 11,
+      "astUnchanged": true
+    },
+    "test_analyze_model_comparison.py": {
+      "sha256": "d7c5288fb27ecf888c5cbe079ef8f3ee4341d7b5ca1ba021a8cc0f5c0f8e3ca9",
+      "commentedSha256": "46542073dada2e95bd9f12b375589b5fa8337d3747bb5339410eb90bb64722af",
+      "addedCommentLines": 14,
+      "astUnchanged": true
+    },
+    "test_analyze_combined_findings.py": {
+      "sha256": "4e397bd3c4f2b9f82b6b271c8314c0a84877cb343485b5321e4fd5d0a11dcdc3",
+      "commentedSha256": "bd20d7ba16f95e2efa177c1db39efadd43149d87cf37635c09599b57eccdf752",
+      "addedCommentLines": 7,
+      "astUnchanged": true
+    }
+  }
+}

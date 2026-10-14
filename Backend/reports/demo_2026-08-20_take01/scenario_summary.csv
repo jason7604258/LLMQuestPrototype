@@ -1,0 +1,9 @@
+scenarioId,scenarioType,generations,openaiNarratives,fallbackNarratives,started,completed,completionRate,averageCompletionSeconds
+collect_mushroom_01,CollectItems,8,8,0,8,7,0.875,14.658714285714286
+kill_torch_01,KillEnemies,9,9,0,9,8,0.8888888888888888,32.047125
+slay_caveborn_bear_01,KillEnemies,10,10,0,10,9,0.9,21.915222222222223
+slay_caveborn_lizard_01,KillEnemies,10,10,0,10,8,0.8,37.3995
+slay_caveborn_snake_01,KillEnemies,10,10,0,10,9,0.9,25.01788888888889
+slay_caveborn_spider_01,KillEnemies,7,7,0,7,6,0.8571428571428571,44.555499999999995
+slay_caveborn_turtle_01,KillEnemies,11,11,0,11,8,0.7272727272727273,32.455125
+slay_torch_boss_01,SlayBoss,7,7,0,7,7,1.0,22.55185714285714

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4e9c1b82d44e1488edc27696ac1142, type: 3}
+  m_Name: SlayCavebornSnakes
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioDefinition
+  scenarioId: slay_caveborn_snake_01
+  scenarioType: 0
+  targetId: enemy_caveborn_snake
+  targetPrefab: {fileID: 1630036474349803927, guid: 0c925a2d312ba47fab6b38e87a713a4c, type: 3}
+  targetSceneName: Forest
+  requiredAmount: 2
+  experienceReward: 14
+  goldReward: 10
+  targetVisualDescription: A dark cave serpent with orange bands, pale fangs, and
+    a coiled body.
+  targetAbilityDescription: It slithers quickly and lunges at close range. It does
+    not spit poison and has no ranged attack.
+  mapDescription: A ruined forest settlement crossed by an old road, with a black
+    castle to the north and a dark cave among the western rocks.

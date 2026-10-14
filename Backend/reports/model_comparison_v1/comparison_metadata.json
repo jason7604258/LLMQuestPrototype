@@ -1,0 +1,226 @@
+{
+  "version": "four-model-comparison-v1",
+  "analyzerSha256": "3451072fc34bb22526dd9225e530efb089b9d14c05cda89ddf3ba6237849bc97",
+  "runnerSha256": "59cbed0a9ebf11098edba19e1a4cebb7f97448a720782a6d6ecd6106fb4d1ff4",
+  "manifestSha256": "c8d0fa093b549a3e71ef64f3502046fa2c18fbed7e64ecf62ca7058222098662",
+  "fields": [
+    "introduction",
+    "completionText"
+  ],
+  "metrics": [
+    "tokenLcsF1",
+    "word3gramJaccard",
+    "word1gramJaccard",
+    "semanticCosine"
+  ],
+  "primaryAggregation": "equal mean of eight scenario pair means",
+  "sourcePrecision": "six-decimal persisted pair scores",
+  "qualityThresholds": null,
+  "pValuesReported": false,
+  "sharedSemanticSettings": {
+    "semanticMetricVersion": "semantic-field-v1-mpnet-cosine",
+    "analyzerSha256": "168c6ae7596bb6ad41c3d6f849a68274b5f02e34278fe301d81019025ef7e4e3",
+    "lexicalAnalyzerSha256": "9f88982a0e2a2aa2a46c6bdf8c9b082b9efef071659abad2c8f06eb22cdfd53c",
+    "fields": [
+      "introduction",
+      "completionText"
+    ],
+    "modelId": "sentence-transformers/all-mpnet-base-v2",
+    "modelRevision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "modelSnapshotSha256": "8507ecba2fa3445ced24fa94dddd7340ecab33991224f00a41d4016248c9cb47",
+    "embeddingDimension": 768,
+    "pooling": "model-defined mean pooling followed by L2 normalization",
+    "modelMaxSequenceLength": 384,
+    "semanticPreprocessing": "collapse whitespace only; preserve case, punctuation, stopwords, and word forms",
+    "normalizeEmbeddings": true,
+    "cosineImplementation": "dot product of L2-normalized float32 embeddings",
+    "device": "cpu",
+    "dtype": "float32",
+    "batchSize": 32,
+    "deterministicAlgorithms": true,
+    "pythonVersion": "3.11.2",
+    "sentenceTransformersVersion": "6.0.0",
+    "transformersVersion": "5.16.1",
+    "torchVersion": "2.13.0",
+    "numpyVersion": "2.4.6",
+    "tokenizersVersion": "0.23.1",
+    "huggingfaceHubVersion": "1.29.0",
+    "offlineModelLoad": true
+  },
+  "cohortChecks": [
+    {
+      "label": "Sol",
+      "generationRecords": 72,
+      "withinScenarioPairs": 296,
+      "fieldComparisons": 592,
+      "auditPairs": 40,
+      "maximumObservedWordpieces": 59,
+      "truncatedTextCount": 0,
+      "sources": {
+        "lexicalMetadata": {
+          "path": "<PROJECT_ROOT>/Backend/reports/lexical_frozen72_v3/analysis_metadata.json",
+          "sha256": "8d235f8d3736b0819898aa26f321b321b95a5f1f18ebd5047a2ccc7a7e5ad770"
+        },
+        "semanticMetadata": {
+          "path": "<PROJECT_ROOT>/Backend/reports/semantic_frozen72_v1/analysis_metadata.json",
+          "sha256": "5877e807abfd8fc6714339c7c66720c2ab5e0d8552169eb6d79094dc4e34329e"
+        },
+        "lexicalPairs": {
+          "path": "<PROJECT_ROOT>/Backend/reports/lexical_frozen72_v3/within_scenario_lexical_pairs.csv",
+          "sha256": "79d5cfc9a95490de12e66087499d1f9e055e31c84a8863c0e702358906d29d7a"
+        },
+        "semanticPairs": {
+          "path": "<PROJECT_ROOT>/Backend/reports/semantic_frozen72_v1/within_scenario_semantic_pairs.csv",
+          "sha256": "b050e1a6ea403be5f38049e784d6d5d6907e3b83a9e08a57f844816a7523969f"
+        },
+        "lexicalAudit": {
+          "path": "<PROJECT_ROOT>/Backend/reports/lexical_frozen72_v3/hash_ranked_audit_sample_40.csv",
+          "sha256": "1dc5472400c157bcb6bb6f0374c6496c8d928809d14780ebf9878d5b3a2efc3d"
+        },
+        "semanticAudit": {
+          "path": "<PROJECT_ROOT>/Backend/reports/semantic_frozen72_v1/hash_ranked_audit_sample_40_with_semantic.csv",
+          "sha256": "177647baf57ef91a9e362a258a29ca64de24ed14274057db2960ce0d310f2b13"
+        },
+        "embeddingManifest": {
+          "path": "<PROJECT_ROOT>/Backend/reports/semantic_frozen72_v1/embedded_text_manifest.csv",
+          "sha256": "376c9abec3833a2e2de5e575e7c7dc5c9a4a50bb3377b40cb77294e2691ae831"
+        }
+      }
+    },
+    {
+      "label": "Terra",
+      "generationRecords": 72,
+      "withinScenarioPairs": 288,
+      "fieldComparisons": 576,
+      "auditPairs": 40,
+      "maximumObservedWordpieces": 55,
+      "truncatedTextCount": 0,
+      "sources": {
+        "lexicalMetadata": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/lexical/analysis_metadata.json",
+          "sha256": "aa4819a8994bb36584332edbe56d689961127b39b5791d8075a465e86434665a"
+        },
+        "semanticMetadata": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/semantic/analysis_metadata.json",
+          "sha256": "122041b9b4af2bd6e9b60f803abff1194180f15569b8aaddac72e85740b6721c"
+        },
+        "lexicalPairs": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/lexical/within_scenario_lexical_pairs.csv",
+          "sha256": "53d8aa5c86b4abcfc1fb8568fa6aacf716814b59f108f45767775b89f1597746"
+        },
+        "semanticPairs": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/semantic/within_scenario_semantic_pairs.csv",
+          "sha256": "f0343e64c8d53eb773fcfefeadec455a339fba7a3721aa89cfafe4772aa6d5a5"
+        },
+        "lexicalAudit": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/lexical/hash_ranked_audit_sample_40.csv",
+          "sha256": "80fe8446cc9e3fede1fd7ac99403eb2d89d579cfddfd513c69acd6cad00d5f3a"
+        },
+        "semanticAudit": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/semantic/hash_ranked_audit_sample_40_with_semantic.csv",
+          "sha256": "8301bce3881aa9492a4603c41b410f9ae3096826d183b516b0887ec30ec641f4"
+        },
+        "embeddingManifest": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/terra/semantic/embedded_text_manifest.csv",
+          "sha256": "17415f4e7a8cbba15ce7ef43489b9afa930d8c857d90feee99061e5503e93968"
+        }
+      }
+    },
+    {
+      "label": "Luna",
+      "generationRecords": 72,
+      "withinScenarioPairs": 288,
+      "fieldComparisons": 576,
+      "auditPairs": 40,
+      "maximumObservedWordpieces": 51,
+      "truncatedTextCount": 0,
+      "sources": {
+        "lexicalMetadata": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/lexical/analysis_metadata.json",
+          "sha256": "cdd7002a9bc87c6759928c8eb8a37b26c801fb1cd5a17d2b4b9aaee27b3fcb9c"
+        },
+        "semanticMetadata": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/semantic/analysis_metadata.json",
+          "sha256": "ef75790ceb72684a452089eef0f66e28aa0175058c95e095cee7d85a6b416168"
+        },
+        "lexicalPairs": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/lexical/within_scenario_lexical_pairs.csv",
+          "sha256": "8af93baca45493cf3043332a6807ec93573f7bfb424331118881e0e1bc194018"
+        },
+        "semanticPairs": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/semantic/within_scenario_semantic_pairs.csv",
+          "sha256": "66bf89f2ffaa71acd05bcbaaf1cfbb9c645028fcd7b919e43bc0a266fd0f561b"
+        },
+        "lexicalAudit": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/lexical/hash_ranked_audit_sample_40.csv",
+          "sha256": "171206e57cf0984f6307c86f39517523c407f49d80b8bced22b343f0b33d4a13"
+        },
+        "semanticAudit": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/semantic/hash_ranked_audit_sample_40_with_semantic.csv",
+          "sha256": "2a10eaaaefad274f3661c0b5f8e2dc74402b125b57cfe0e8a27d29b263ba7ef8"
+        },
+        "embeddingManifest": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/luna/semantic/embedded_text_manifest.csv",
+          "sha256": "dc8178ef89032fdc307534f4bc0b1d0efbd4a94473639d1a87560896c93955b1"
+        }
+      }
+    },
+    {
+      "label": "Astra",
+      "generationRecords": 72,
+      "withinScenarioPairs": 288,
+      "fieldComparisons": 576,
+      "auditPairs": 40,
+      "maximumObservedWordpieces": 65,
+      "truncatedTextCount": 0,
+      "sources": {
+        "lexicalMetadata": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/lexical/analysis_metadata.json",
+          "sha256": "6576e991c5cbd44828f799e597e3f8aea507ae9ba8563251cd3a02a96c5b54f8"
+        },
+        "semanticMetadata": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/semantic/analysis_metadata.json",
+          "sha256": "7768b4f82036d793f8d8464bff4dca5c3d2ac2578c8a44ab20aeddede754a4d8"
+        },
+        "lexicalPairs": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/lexical/within_scenario_lexical_pairs.csv",
+          "sha256": "d48fccad18e48cd5f144e5b4d17653a87600113451e895e134f3558e12fb90bc"
+        },
+        "semanticPairs": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/semantic/within_scenario_semantic_pairs.csv",
+          "sha256": "29e70bcf79f79ec51721fd68c3212e318c118435d39b643bac5a7973e87457f1"
+        },
+        "lexicalAudit": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/lexical/hash_ranked_audit_sample_40.csv",
+          "sha256": "7c324aad50036bbd2647a57479bbb336e4b436ef341fb080cceda9c684f5e60d"
+        },
+        "semanticAudit": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/semantic/hash_ranked_audit_sample_40_with_semantic.csv",
+          "sha256": "b9aaaa6f4eabe61c5e1b2ca0ddbee41def2fa124c4885b006a1bdd935104663e"
+        },
+        "embeddingManifest": {
+          "path": "<PROJECT_ROOT>/Backend/reports/model_comparison_v1/astra/semantic/embedded_text_manifest.csv",
+          "sha256": "8d436b575db4a0e26ac5bf64a329ca9f861e2c4b8e97e4662662e93edb67de71"
+        }
+      }
+    }
+  ],
+  "outputs": {
+    "scenario_comparison.csv": {
+      "rows": 64,
+      "sha256": "fb41f64cb51c8c9f2706e5c19fa413b3fd5a4eee25ec50edc9882168974bb9c8"
+    },
+    "model_macro_summary.csv": {
+      "rows": 8,
+      "sha256": "7963052878affa9d3fe2e8f70bb0da98a2bd49342f3642663e383b68ffbc8321"
+    },
+    "pair_correlations.csv": {
+      "rows": 24,
+      "sha256": "7fd5de77cd9aa1bb37d29f74c27a9e316b75950befbdf5d935d15ea0542536dc"
+    },
+    "metric_disagreement_cases.csv": {
+      "rows": 40,
+      "sha256": "b2a927eaf63abc3c85ba68bb4a29429b250fb3d14b397b07f8d6759ff39d08ff"
+    }
+  }
+}
